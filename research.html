@@ -1,0 +1,606 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+
+
+
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Jonathan Ben-Artzi - Research</title>
+  
+
+  
+  
+  <meta name="keywords" content="" />
+
+  
+  <meta name="description" content="" />
+
+  
+  <link href="default2.css" rel="stylesheet" type="text/css" />
+
+  
+  <style type="text/css">
+<!--
+.style1 {
+	color: #254360;
+	text-decoration: none;
+}
+.style2 {
+	color: #FFFFFF;
+	background-color: #4F96D9;
+	text-align: center;
+}
+.style3 {
+	color: #000000;
+	font-weight: bold;
+}
+.style31 {color: #000000}
+-->
+  </style>
+  
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script></head><body>
+<div id="header">
+<h1>Jonathan Ben-Artzi</h1>
+<h2 align="right"><a href="http://www.cardiff.ac.uk/mathematics" class="style1">School of Mathematics</a>
+| <a href="http://www.cardiff.ac.uk/" class="style1">Cardiff University<br />
+</a></h2>
+</div>
+
+<div id="menu">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="research.html" class="active">Research</a></li>
+  <li><a href="teaching.html">teaching</a></li>
+  <li><a href="cv.html">cv</a></li>
+  <li><a href="links.html">links</a></li>
+  <li><a href="contact.html">contact</a></li>
+</ul>
+</div>
+
+<div id="content">
+<div id="columnA"><span style="font-weight: bold;">My main research
+areas are (click to jump to description):</span><br />
+<ol>
+  <li><a href="#pdes">First Order Nonlinear PDEs</a></li>
+  <ul>
+    <li><a href="#kinetic">Kinetic Theory</a></li>
+    <li><a href="#spectral">Spectral Theory and Ergodic Theory</a><br />
+    </li>
+  </ul>
+  <li><a href="#approx">Infinite Dimensional Approximation Theory</a></li>
+  <li><a href="#mult">Multiscale Problems</a></li>
+</ol>
+And, in addition, some <a href="#notes">notes</a> of expository talks
+I gave when I was
+a graduate student.<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div style="text-align: right;"><a name="pdes">
+</a>
+<p style="background-color: rgb(15, 63, 109);"><span style="color: white;"><a style="color: white;" href="#pdes">1st Order
+PDEs</a>&nbsp; |&nbsp; <a style="color: white;" href="#approx">Approximation
+Theory</a>&nbsp; |&nbsp; <a style="color: white;" href="#mult">Multiscale
+Problems</a>&nbsp; |&nbsp; <a style="color: white;" href="#notes">Notes</a></span><br />
+</p>
+</div>
+<h3 class="style2">First Order Nonlinear PDEs<br />
+</h3>
+<h2 class="style1">
+<p style="background-color: rgb(206, 216, 246);"><a name="kinetic"> </a>Kinetic
+theory</p>
+<br />
+</h2>
+<b style="font-style: italic;">Introduction</b>.<b style="font-style: italic;"> </b><a href="http://en.wikipedia.org/wiki/Kinetic_theory">Kinetic theory</a>
+provides a mesoscopic description of gases, fluids, plasmas and other
+many-particle systems such as galaxies. This means that the unknown
+quantity is a function \( f=f(t,x,v) \) measuring the density of
+particles that at a
+given time \( t \) are located at the point \( x \) and have
+momentum \( v \). Assuming that the full time derivative of \( f \)
+equals zero, we obtain the <span style="font-style: italic;">Vlasov
+equation</span> \[\tag{V} \frac{\partial f}{\partial
+t}+v\cdot\nabla_{x}f+F\cdot\nabla_{v}f=0,\] where we used that \(
+\dot{x}=v\) and \(\dot{v}=a\), and Newton's second law \(F=ma\), taking
+the mass \(m=1\).  The zero on
+the right hand side expresses  a <span style="font-style: italic;">no
+collision assumption</span>: particle motion is only governed by the
+driving force \( F=F(t,x,v) \) (which we discuss below) but not due to
+collisions or any other effect.<br />
+<br />
+The driving force \( F\) captures the physics of the problem. I am
+mainly interested in <span style="font-style: italic;">plasma</span>
+models, where the force is electromagnetic and the particles are ions
+and electrons for which gravitational forces are negligible. Hence, the
+force is the&nbsp; <span style="font-style: italic;">Lorentz force</span>,
+given by \[ F=q \left(E+\frac{v}{c}\times B\right)\] where \(q=\pm 1\)
+is the particle charge, \(E=E(t,x)\) is the electric field,
+\(B=B(t,x)\) is the magnetic field and \(c\) is the speed of light
+(which we usually take to be \(1\) for simplicity). We find the fields
+using <span style="font-style: italic;">Maxwell's equations</span> \[<br />
+&nbsp;&nbsp;&nbsp; \begin{align}<br />
+&nbsp;&nbsp;&nbsp; &amp;\nabla\cdot{E}=\rho\qquad\qquad\qquad<br />
+&nbsp;&nbsp;&nbsp; \nabla\cdot{B}=0\\<br />
+&nbsp;&nbsp;&nbsp;
+&amp;\nabla\times{E}=-\frac{1}{c}\frac{\partial{B}}{\partial t}\qquad<br />
+&nbsp;&nbsp;&nbsp;
+\nabla\times{B}=\frac{1}{c}{j}+\frac{1}{c}\frac{\partial{E}}{\partial
+t},<br />
+&nbsp;&nbsp;&nbsp; \end{align}<br />
+&nbsp;&nbsp; \] where \(\rho=\rho(t,x)\) is the charge density and
+\({j}={j}(t,x)\) is the current density, which are defined as
+\(\rho=4\pi q\int f\;\text dv\) and \({j}=4\pi q\int v f\;\text dv.\)
+We therefore obtain a system of coupled equations
+called the <span style="font-weight: bold;">Vlasov-Maxwell</span>
+system. [There are some modifications that need to be made to the
+velocity in order to preserve relativistic symmetries, but this is
+omitted here]. In the most general case there are few existence and
+uniqueness
+results. Perhaps the most important result is due to Glassey and
+Strauss (<a href="http://link.springer.com/article/10.1007%2FBF00250732">ARMA
+1986</a>). In the electrostatic case where magnetic effects are assumed
+to be negligble (then the system is called <span style="font-weight: bold;">Vlasov-Poisson</span>) there is a robust
+theory due to Pfaffelmoser (<a href="http://www.sciencedirect.com/science/article/pii/002203969290033J">JDE
+1992</a>), Lions and Perthame (<a href="http://link.springer.com/article/10.1007%2FBF01232273?LI=true">Invent.
+Math. 1991</a>) and Schaeffer (<a href="http://www.tandfonline.com/doi/abs/10.1080/03605309108820801#.UklnVLyE6PA">CPDE
+1991</a>).<br />
+<br />
+<br />
+<b style="font-style: italic;">Stability analysis</b>. I am mainly
+interested in plasma instabilities. That is, I am interested in the
+following question: given an equilibrium \( f^0=f^0(x,v)\) of the
+Vlasov-Maxwell system, how does a small perturbation
+\(g(t,x,v)=f^0(x,v)+\varepsilon f(t,x,v)\) behave? (of course, we must
+first verify that the necessary existence and uniqueness theory is
+established). The first step is to linearize the Vlasov equation and
+obtain \begin{equation}\tag{LV} \frac{\partial f}{\partial
+t}+v\cdot\nabla_{x}f+F^0\cdot\nabla_{v}f=-F\cdot\nabla_{v}f^0,\end{equation}
+where
+\(F^0\) is the equilibrium Lorentz force and \(F\) is its first-order
+perturbation. My approach to finding an instability, going back to Lin (<a href="http://intlpress.com/site/pub/pages/journals/items/mrl/content/vols/0008/0004/a011/index.html">MRL
+2001</a>),
+is to convert the problem into a spectral problem. First, we make a
+growing mode ansatz: we assume that \(f\) and \(F\) have time
+dependence proportional to \(e^{\gamma t}\) where \(\gamma &gt; 0\).
+This allows us to replace the time derivative in \(\text{(LV)}\) by
+multiplication by \(\gamma\). Then, this equation is
+inverted, and one obtains an expression for \(f\) in terms of some
+integral expression of \(F\) and \(f^0\), depending on \(\gamma\) as a
+parameter.
+By plugging the expression for \(f\) into Maxwell's equations, we
+obtain a selfadjoint problem which we need to solve. That is, very
+generally speaking, we obtain a selfadjoint operator depending upon the
+parameter \(\gamma\) for which we need to find a nontrivial kernel.
+This is done by writing the problem for \(\gamma=0\) and
+\(\gamma=+\infty\) and tracking the spectrum of the operator as
+\(\gamma\) varies between these two values.<br />
+<br />
+<p><b>Publications:</b><br />
+</p>
+<ol>
+<li><span style="font-weight: bold;" class="style3">Instabilities of
+the relativistic Vlasov-Maxwell system on unbounded domains</span><br /><table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td style="vertical-align: top;"><em>Submitted</em>, 49 pages, 2015 | <a href="Files/RVM-Holding.pdf">preprint</a> | <a href="http://arxiv.org/abs/1505.05672">arXiv</a></td>
+
+
+
+<td style="vertical-align: top; text-align: right; font-style: italic;">
+
+with <a href="http://www.maths.cam.ac.uk/postgrad/cca/people/tjh60.html">T. Holding</a></td>
+</tr></tbody></table><br />
+</li>
+  <li style="background-color: rgb(229, 229, 229);"><span style="font-weight: bold;" class="style31">Instabilities in
+kinetic theory and their relationship to the ergodic theorem</span><br />
+<i style="color: rgb(0, 0, 153); font-family: monospace; font-weight: bold;">Contemp. Math.</i>, <strong>653</strong></i>,  25-40, 2015 | <a href="Files/Ben-Artzi%20-%20Instabilities%20in%20kinetic%20theory%20and%20their%20relationship%20to%20the%20ergodic%20theorem.pdf">preprint</a> | <a href="http://arxiv.org/abs/1402.7104">arXiv</a> | <a href="http://www.ams.org/books/conm/653/">journal</a> | <a href="http://dx.doi.org/10.1090/conm/653">doi</a><br />
+<br />
+<span class="style31"></span></li>
+<li><span style="font-weight: bold;" class="style3">Instability
+of
+nonsymmetric nonmonotone
+equilibria of the Vlasov-Maxwell system</span><br />
+    <i style="color: rgb(0, 0, 153); font-family: monospace; font-weight: bold;">J. Math. Phys.</i>, <b>52</b>, 123703, 2011 | <span><a href="Files/General-B-lambda.pdf">preprint</a> | <a href="http://arxiv.org/abs/1104.5277">arXiv</a> | <a href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no">journal</a>
+
+
+
+
+
+| <a href="http://dx.doi.org/10.1063/1.3670874">doi</a><br />
+
+
+<br />
+  </span></li><li style="background-color: rgb(229, 229, 229);"><span style="font-weight: bold;" class="style3">Instability of
+nonmonotone magnetic
+equilibria of the relativistic Vlasov-Maxwell system</span><br />
+
+    <i style="color: rgb(0, 0, 153); font-family: monospace; font-weight: bold;">Nonlinearity</i>, <b>24</b>, 3353-3389, 2011 | <a href="Files/RVM1D-2species.pdf">preprint</a> | <a href="http://arxiv.org/abs/1008.2451">arXiv</a> | <a href="http://iopscience.iop.org/0951-7715/24/12/004">journal</a> | <a href="http://dx.doi.org/10.1088/0951-7715/24/12/004">doi</a><br />
+
+
+
+
+
+
+
+<br />
+
+  </li>
+</ol>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h2 class="style1">
+<p style="background-color: rgb(206, 216, 246);"><a name="spectral"> </a>Spectral
+properties of
+first order differential
+operators and applications to ergodic theory</p>
+<br />
+</h2>
+In the preceding discussion, after applying the growing-mode ansatz and
+plugging into \(\text{(LV)}\), the left hand side becomes
+\((\gamma+D)f\) where \(D=(v\cdot\nabla_x,F^0\cdot\nabla_v)\) is a
+vector field in phase space. When inverting \(\text{(LV)}\) one has to
+average the right hand side along the trajectories of \(D\). This
+average is very similar to the one familiar from the ergodic theorem,
+and as \(\gamma\to0\) it converges (in the strong operator topology) to
+a spatial average. This raises the following question: <span style="font-style: italic;">under what circumstances, if at all, is
+this convergence in fact <span style="font-weight: bold;">uniform</span>?</span><br />
+<br />
+One of the very first <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1076162/">proofs</a>
+of the ergodic theorem, due to John von Neumann (the other is due to
+Birkhoff), relied on the spectral
+theorem and a detailed analysis of the spectral family (resolution of
+the identity) of the associated selfadjoint operator. In a nutshell,
+von Neumann's theorem and proof are as follows:<br />
+<br />
+<div style="border: 1px solid black; margin-left: 10px; margin-right: 10px;" #ffffff=""><span style="font-weight: bold;">Theorem
+(von Neumann).</span> <span style="font-style: italic;">Let
+\(\mathcal{H}\) be a separable Hilbert space and let
+\(G_t:\mathcal{H}\to\mathcal{H}\) be a continuous one-parameter group
+of unitary transformations. Let \(P\) be the orthogonal
+projection onto \(\{v\in\mathcal{H}\ |\ \forall t,\
+G_tv=v\}\). Then for any \(f\in\mathcal{H}\)
+\[\lim_{T\to\infty}\frac 1{2T}\int_{-T}^T G_tf\ \text dt=Pf.\]</span>
+</div>
+<br />
+<span style="font-style: italic;">Sketch of proof</span>. The proof
+uses the spectral decomposition \(\{E(\lambda)\}_{\lambda\in{\mathbb
+R}}\) of the generator of \(G_t\) (Stone's theorem) to get \(\frac
+1{2T}\int_{-T}^T G_t \text dt=\frac{1}{2T}\int_{-T}^T\int_{\mathbb R}
+e^{it\lambda}\text dE(\lambda)\text dt=\int_{\mathbb
+R}\frac{\sin{T\lambda}}{T\lambda}\text dE(\lambda)\). Von Neumann then
+shows that when \(T\to\infty\) only the contribution from \(\lambda=0\)
+remains, which precisely corresponds to the projection \(P\).
+<div style="text-align: right;">\(\Box\)<br />
+</div>
+<br />
+Now, consider the simple case of a one-dimensional flow governed by the
+operator \(H=-i\frac{\text d}{\text dx}\). Then \(G_t=e^{itH}\) and the
+spectral family can be explicitly identified via the Fourier transform,
+relating \(H\) to a multiplication operator by \(\xi\). This allows us
+to get the formula \[\left(E(\lambda)f,g\right)_{L^2(\mathbb
+R)}=\int_{\xi\leq\lambda}\widehat
+f(\xi)\overline{\widehat{g}(\xi)}\;\text d\xi\] which can be
+differentiated with respect to \(\lambda\) when restricted to the
+absolutely continuous subspace. In turn, this allows us to make the
+substitution \(\text dE(\lambda)=\frac{\text dE}{\text d\lambda}\text
+d\lambda\) where \(\frac{\text dE}{\text d\lambda}\) is called the <span style="font-style: italic;">density of states</span>. Estimates on the
+density of states allow us to obtain <span style="font-style: italic;">uniform</span>
+convergence in Von Neumann's argument on certain weighted-\(L^2\)
+subspaces.<br />
+<br />
+<p style="margin: 0px; text-indent: 0px;">In higher dimensions we
+consider the operator \(H=-i(u\cdot\nabla)\) where \(u:\mathbb
+R^d\to\mathbb R^d\)
+is divergence-free. The main complication is understanding the form of
+the Fourier transform in this case. This requires finding a <span style="font-style: italic;">global</span> rectification for \(u\).
+Another complication stems from
+the benefit of working in weighted-\(L^2\) spaces, where the Fourier
+transform is no longer so "clean'' and identifying the density of
+states is more difficult.</p>
+<p style="margin: 0px; text-indent: 0px;"><br />
+</p>
+<br />
+<b>Publications:</b><br />
+<ol start="5">
+<li style="background-color: rgb(229, 229, 229);"><span style="font-weight: bold;" class="style3">The density of states of fibered self-adjoint operators</span><br /><table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td style="vertical-align: top;"><i>In preparation</i><a href="http://arxiv.org/abs/1505.05672"></a></td>
+
+
+
+
+
+
+</tr></tbody></table><br />
+  
+  
+  </li><li><span style="font-weight: bold;">Uniform
+convergence in von Neumann's ergodic
+theorem</span><br /><table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td style="vertical-align: top;"><i>In preparation</i></td>
+
+
+<td style="vertical-align: top; text-align: right; font-style: italic;">
+with <a href="http://cmouhot.wordpress.com/">C. Mouhot</a></td>
+</tr></tbody></table><br />
+  </li><li style="background-color: rgb(229, 229, 229);"><span style="font-weight: bold;" class="style31">On the spectrum
+of shear flows and uniform ergodic theorems</span><br />
+<i style="color: rgb(0, 0, 153); font-family: monospace; font-weight: bold;">J. Funct. Anal.</i>, <strong>267</strong>,  299-322, 2014 | <a href="Files/Spectrum.pdf">preprint</a> | <a href="http://arxiv.org/abs/1310.7219">arXiv</a> | <a href="http://www.sciencedirect.com/science/article/pii/S0022123614001736">journal</a> | <a href="http://dx.doi.org/10.1016/j.jfa.2014.04.012">doi</a><br />
+<br />
+  </li>
+</ol>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div style="text-align: right;"><a name="approx">
+</a>
+<p style="background-color: rgb(15, 63, 109);"><span style="color: white;"><a style="color: white;" href="#pdes">1st Order
+PDEs</a>&nbsp; |&nbsp; <a style="color: white;" href="#approx">Approximation
+Theory</a>&nbsp; |&nbsp; <a style="color: white;" href="#mult">Multiscale
+Problems</a>&nbsp; |&nbsp; <a style="color: white;" href="#notes">Notes</a></span><br />
+</p>
+</div>
+<h3 class="style2">Infinite Dimensional Approximation Theory<br />
+</h3>
+A sensible approach to analysing the spectrum of an operator \(H\)
+is to first study the truncated operator \(P_nHP_n\) where \(P_n\) is a
+projection onto an \(n\)-dimensional subspace, and then let
+\(n\to\infty\). However, this is not always so straightforward, and it
+raises fundamental questions related to complexity and computability:
+<ul>
+  <li> Can the spectrum of an operator always be calculated from
+finite-dimensional approximations?</li>
+  <li> If so, are some types of operators simpler to treat than others?</li>
+  <li> Can one quantify how difficult such a calculation is?</li>
+</ul>
+In this work with my coauthors we address these questions, generalising
+the concept of a <span style="font-style: italic;">tower of algorithms</span>,
+introduced by Doyle and McMullen (<a href="http://www.springerlink.com/index/339K21T121834036.pdf">Acta
+Math. 1989</a>)
+in their seminal paper showing that finding roots of quartic and
+quintic polynomials is more complex than finding roots of cubic
+polynomials, and that finding roots of sextic polynomials is infinitely
+more complex. The basic idea is that some calculations cannot be
+performed by an iterative algorithm that processes a finite amount of
+information at each iteration. A tower of algorithms is a sequence of
+algorithms, where each link in the sequence relies on the information
+provided by the preceding one. Hence, instead of a single iterative
+algorithm, several limits must be taken. In our work we treat several
+problems, but most importantly we discuss the computation of
+<ul>
+  <li> spectra of Schrödinger operators of the form \(H=-\Delta+V\)
+acting in \(L^2(\mathbb R^d)\),</li>
+  <li> spectra of bounded infinite matrices of the form
+\(A=(a_{ij})_{i,j=1}^\infty\) acting in \(\ell^2(\mathbb N)\).</li>
+</ul>
+<p style="margin: 0px; text-indent: 0px;">For these problems we show
+that a tower is required, and provide actual algorithms explicitly. We
+show that these algorithms are essential (in the sense that the tower
+cannot be shortened by one level) by providing suitable counterexamples.<br />
+</p>
+<br />
+<br />
+<b>Publications:</b><br />
+<ol start="8">
+<li style="background-color: rgb(229, 229, 229);"><span style="font-weight: bold;" class="style31">A characterisation of operators that can be obtained from finite-dimensional approximations</span></span><br />
+  <table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td style="vertical-align: top;"><i>In preparation</i><a href="http://arxiv.org/abs/1403.3963"></a></td>
+
+
+
+
+
+</tr></tbody></table><br />
+
+   </span></li><li><span style="font-weight: bold;" class="style3">The Solvability Complexity Index - Computer Science and Logic Meet Scientific Computing</span></span><br /><table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td style="vertical-align: top;"><i>Submitted, </i>15 pages, 2015 | <a href="Files/SCI_STOC_Final.pdf">preprint</a></td>
+
+
+<td style="vertical-align: top; text-align: right; font-style: italic;">
+with <a href="http://www.damtp.cam.ac.uk/research/afha/anders/">A. Hansen</a>, <a href="https://math.aalto.fi/en/people/olavi.nevanlinna">O. Nevanlinna</a> and <a href="http://www-user.tu-chemnitz.de/%7Eseidm/">M. Seidel</a></td>
+</tr></tbody></table><br />
+  </li><li style="background-color: rgb(229, 229, 229);"><span style="font-weight: bold;" class="style3">Approximations </span><span style="font-weight: bold;" class="style3">of strongly continuous</span><span style="font-weight: bold;" class="style3">
+families of unbounded operators</span><table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td style="vertical-align: top;"><i style="color: rgb(0, 0, 153); font-family: monospace; font-weight: bold;">Commun. Math. Phys.</i>, <strong>345</strong>, 615-630, 2016 | <a href="Files/Ben-Artzi, Holding - Approximations of strongly continuous families of unbounded self-adjoint operators.pdf">preprint</a> | <a href="http://arxiv.org/abs/1403.3963">arXiv</a> | <a href="http://link.springer.com/article/10.1007/s00220-016-2637-4">journal</a> | <a href="http://dx.doi.org/10.1007/s00220-016-2637-4">doi</a> | <a href="Files/erratum.pdf">erratum</a></td>
+
+<td style="vertical-align: top; text-align: right; font-style: italic;">
+
+with <a href="http://www.maths.cam.ac.uk/postgrad/cca/people/tjh60.html">T. Holding</a></td>
+
+
+
+</tr></tbody></table><br />
+
+   </span></li><li><span style="font-weight: bold;" class="style3">Can everything be
+computed? - On the
+Solvability Complexity Index and Towers of Algorithms</span><br /><table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td style="vertical-align: top;"><i>Submitted</i>, 79 pages, 2015 | <a href="Files/SCI.pdf">preprint</a> | <a href="http://arxiv.org/abs/1508.03280">arXiv</a></td>
+
+<td style="vertical-align: top; text-align: right; font-style: italic;">
+with <a href="http://www.damtp.cam.ac.uk/research/afha/anders/">A. Hansen</a>, <a href="https://math.aalto.fi/en/people/olavi.nevanlinna">O. Nevanlinna</a> and <a href="http://www-user.tu-chemnitz.de/%7Eseidm/">M. Seidel</a></td>
+
+
+</tr></tbody></table><br />
+
+  </li><li style="background-color: rgb(229, 229, 229);"><span style="font-weight: bold;" class="style3">New barriers in complexity theory: On The Solvability Complexity Index and Towers of Algorithms</span><br /><table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td width="59%" style="vertical-align: top;"><i style="color: rgb(0, 0, 153); font-family: monospace; font-weight: bold;">C. R. Acad. Sci.</i>, <strong>353</strong>,  931-936, 2015 | <a href="Files/SCI-CRAS.pdf">preprint</a> | <a href="http://www.sciencedirect.com/science/article/pii/S1631073X15002137">journal</a> | <a href="http://dx.doi.org/10.1016/j.crma.2015.08.002">doi</a></td>
+
+<td width="41%" style="vertical-align: top; text-align: right; font-style: italic;">with <a href="http://www.damtp.cam.ac.uk/research/afha/anders/">A. Hansen</a>, <a href="https://math.aalto.fi/en/people/olavi.nevanlinna">O. Nevanlinna</a> and <a href="http://www-user.tu-chemnitz.de/%7Eseidm/">M. Seidel</a></td>
+
+
+
+</tr></tbody></table><br />
+
+    <span class="style3"><span class="style3" /></span></li>
+</ol>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div style="text-align: right;"><a name="mult">
+</a>
+<p style="background-color: rgb(15, 63, 109);"><span style="color: white;"><a style="color: white;" href="#pdes">1st Order
+PDEs</a>&nbsp; |&nbsp; <a style="color: white;" href="#approx">Approximation
+Theory</a>&nbsp; |&nbsp; <a style="color: white;" href="#mult">Multiscale
+Problems</a>&nbsp; |&nbsp; <a style="color: white;" href="#notes">Notes</a></span><br />
+</p>
+</div>
+<h3 class="style2">Multiscale Problems: Stochastic Homogenization and
+Hydrodynamic Limits<br />
+</h3>
+Two of the fundamental results in the field of stochastic
+homogenization are those of Kozlov (<a href="http://www.mathnet.ru/php/archive.phtml?wshow=paper&amp;jrnid=sm&amp;paperid=2365&amp;option_lang=eng">Mat.
+Sb. 1979</a>) and of Papanicolaou and Varadhan (<a href="http://www.google.co.uk/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CDIQFjAA&amp;url=http%3A%2F%2Fmath.stanford.edu%2F%7Epapanico%2Fpubftp%2Fpubs_old%2Fpap_vara_79.pdf&amp;ei=BOZJUta9EtKS0QX-koGwBg&amp;usg=AFQjCNHdnTo5QsrvVh-ypGyefXpDw5dA0g&amp;sig2=dn64um8HgjtlmbPxf9YtNA&amp;bvm=bv.53217764,d.d2k">1979</a>).
+Their motivating question is the following: consider a conductor in
+some domain \(\Omega\subset\mathbb R^d\) whose composition is
+inhomogeneous, where the conductivity \(a(x)\) is a random variable
+that oscillates on microscopic scales. Hence if \(a(x)\) is a given
+stationary random function that is strictly positive and bounded, then
+the temperature (or current)
+\(u^\varepsilon(x)\) satisfies the equation \[
+-\nabla\cdot\left(a\left(\frac x\varepsilon\right)\nabla
+u^\varepsilon(x)\right)=f(x)\quad \text{in }\Omega\]
+<p style="margin: 0px; text-indent: 0px;">say with
+\(u^\varepsilon|_{\partial\Omega}=0\) for simplicity. The source term
+\(f(x)\) is a deterministic function modelling heat (or charge) sources
+in the domain. The general question is what is the limiting behaviour
+of the temperature (or current) distribution \(u^\varepsilon(x)\) in
+the limit \(\varepsilon\to0\)? Once convergence in an appropriate space
+is established, the rate of convergence is of interest.</p>
+<p style="margin: 0px; text-indent: 0px;"><br />
+</p>
+<p style="margin: 0px; text-indent: 0px;">Papanicolaou and Varadhan
+show that if \(a(x)\) is strictly stationary and ergodic (in an
+appropriate sense) then there exist deterministic and homogeneous
+coefficients \(a_{\text{hom}}\) such that the solution \(u\) to
+\[-\nabla\cdot\left(a_{\text{hom}}\nabla u(x)\right)=f(x)\quad\text{in
+}\Omega\]</p>
+<p style="margin: 0px; text-indent: 0px;">with
+\(u|_{\partial\Omega}=0\) is a limit of \(u^\varepsilon\) in an
+appropriate sense. Kozlov obtains a similar result for coefficient
+fields \(a(x)\) that are periodic in \(x\).</p>
+<p style="margin: 0px; text-indent: 0px;"><br />
+</p>
+<p style="margin: 0px; text-indent: 0px;">Another interesting question
+concerns the retrieval of \(a_\text{hom}\) from \(a\). If \(d=1\) it is
+simple: \(a_\text{hom}=\left&lt;a^{-1}\right&gt;^{-1}\) where
+\(\left&lt;\cdot\right&gt;\) is the ensemble average. However if
+\(d\geq2\) the best a priori statement available is that
+\(\left&lt;a^{-1}\right&gt;^{-1}\leq
+a_\text{hom}\leq\left&lt;a\right&gt;\). A good way to think about this
+difference between \(d=1\) and \(d&gt;1\) is the following: in one
+space dimension resistors can only be placed in series while in higher
+dimensions they can also be placed in parallel, thus affecting the
+conductivity in a more complicated way.</p>
+<p style="margin: 0px; text-indent: 0px;"><br />
+</p>
+<p style="margin: 0px; text-indent: 0px;">Intuitively, at any point
+\(x\in\Omega\) there exists some averaged potential gradient
+\(\xi\in\mathbb R^d\) that induces some averaged current
+\(a_\text{hom}\xi\). The stochastic conductivity shall therefore
+diverge from \(\xi\) by some "noise'' factor that turns out to be a
+gradient of some random function \(\phi\), known as the corrector. It
+can be shown that the following <span style="font-style: italic;">corrector
+equation</span> holds<br />
+\[-\nabla\cdot\left(a\left(\frac
+x\varepsilon\right)\left(\nabla\phi(x)+\xi\right)\right)=0.\] The
+gradient
+of the corrector is stationary and \(\left&lt;\nabla\phi\right&gt;=0\).
+The homogenized coefficients then satisfy the equation \[\xi\cdot
+a_\text{hom}\xi=\left&lt;(\xi+\nabla\phi)\cdot
+a\left(\nabla\phi+\xi\right)\right&gt;,\]</p>
+<p style="margin: 0px; text-indent: 0px;">where it does not matter at
+which \(x\in\Omega\) the right hand side is evaluated, as it is
+stationary. Hence the problem reduces to finding the corrector.</p>
+<br />
+Much more information on this (and other problems related to
+mathematics of materials) is available on Felix Otto's <a href="http://www.mis.mpg.de/applan/research.html">website</a>.<br />
+<br />
+<br />
+<b>Publications:</b><br />
+<ol start="12">
+<li style="background-color: rgb(229, 229, 229);"><span style="font-weight: bold;" class="style3"> Moment bounds on the corrector of stochastic homogenization of non-symmetric elliptic finite difference equations</span><br /><table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+      <td style="vertical-align: top;"><i style="color: rgb(0, 0, 153); font-family: monospace; font-weight: bold;">Commun. PDE</i>, <strong>42</strong>, 179-234, 2017 | <a href="Files/BMN_final.pdf">preprint</a> | <a href="http://arxiv.org/abs/1407.6984">arXiv</a> | <a href="http://www.tandfonline.com/doi/full/10.1080/03605302.2017.1281298">journal</a> | <a href="http://dx.doi.org/10.1080/03605302.2017.1281298">doi</a></td></td>
+
+
+
+
+<td style="vertical-align: top; text-align: right; font-style: italic;">
+with <a href="https://uk.linkedin.com/pub/daniel-marahrens/80/a84/a1a">D. Marahrens</a> and <a href="http://www.math.tu-dresden.de/~sneukamm/">S. Neukamm</a></td>
+
+</tr></tbody></table><br />
+    <span class="style3"><span class="style3" /></span></li>
+</ol>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<ul>
+</ul>
+<div style="text-align: right;"><a name="notes">
+</a>
+<p style="background-color: rgb(15, 63, 109);"><span style="color: white;"><a style="color: white;" href="#pdes">1st Order
+PDEs</a>&nbsp; |&nbsp; <a style="color: white;" href="#approx">Approximation
+Theory</a>&nbsp; |&nbsp; <a style="color: white;" href="#mult">Multiscale
+Problems</a>&nbsp; |&nbsp; <a style="color: white;" href="#notes">Notes</a></span><br />
+</p>
+</div>
+<h3 class="style2">Various Notes</h3>
+<h2 class="style1">Graduate Student Seminars</h2>
+These are expository notes that I made to accompany <span style="font-style: italic;">graduate student seminars</span> that I
+delivered while at Brown.<br />
+<ul>
+  <li><a href="Files/axiom.of.choice.talk.pdf">The Axiom of Choice</a>.</li>
+  <li><a href="Files/spectral.theorem.talk.pdf">The Spectral Theorem</a>.</li>
+  <li><a href="Files/hj.pdf">The Hamilton-Jacobi Equation</a>.</li>
+</ul>
+<br />
+<h2 class="style1">Lecture Notes<br />
+</h2>
+<ul>
+  <li>During the fall semeter of 2008 I taught honors calculus and
+followed the book by J. Marsden and A. Tromba. I typed lecture notes
+which can be found <a href="Files/ma35.pdf">here</a>.</li>
+  <li>During the academic year 2007-2008 I was one of the TAs for
+second semester calculus (MA 0100). I typed up a concise summary of the
+course, available <a href="Files/math10.pdf">here</a>.</li>
+</ul>
+<br />
+</div>
+</div>
+
+<div id="footer">
+<p><a href="http://www.freecsstemplates.org" class="link1"><br />
+</a></p>
+</div>
+
+</body></html>

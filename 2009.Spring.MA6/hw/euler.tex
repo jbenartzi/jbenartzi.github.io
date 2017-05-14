@@ -1,0 +1,291 @@
+% Matt Spencer's preamble
+% Blatantly plagarized from Steve Miller (though I do recall him giving permission at the undergrad seminar 2005-6
+% Modified September 18th, 2006
+
+
+% LaTEX source code
+% Last modified November 1st, 2005
+% Steve Miller
+
+% note that the percent sign comments out the rest of the line
+% first, we set a document class. often use 12pt characters, though
+% sometimes people do 11 or 10. you can do report or article, both similar
+
+\documentclass[12pt,letterpaper]{article}
+%\documentclass[12pt,reqno]{book}
+
+\addtolength{\textwidth}{5cm}               % text width: larger number means closer to right
+\addtolength{\hoffset}{-2.5cm}               % horizontal offset
+\addtolength{\textheight}{3cm}             % text height: larger number means closer to bottom
+\addtolength{\voffset}{-2.5cm}                 % vertical offset
+%\addtolength{\marginparwidth}{0cm}
+
+
+% below are some packages that are needed for certain symbols, graphics, colors.
+% safest to just include these.
+
+%\usepackage{times}
+%\usepackage[T1]{fontenc}
+\usepackage{mathrsfs}
+\usepackage{fancyhdr}
+\usepackage{latexsym}
+\usepackage[dvips]{graphics}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{bm}
+%\usepackage{hyperref, amsmath, amsthm, amsfonts, amscd, flafter,epsf}
+\usepackage{amsmath,amsfonts,amsthm,amssymb,amscd}
+\input amssym.def
+\input amssym.tex
+\usepackage{color}
+
+% Setting up page styles
+% Setting up headers
+%\pagestyle{fancy}
+%\fancyhead{}
+%\fancyfoot{}
+%\fancyhead[RO]{Jonathan Ben-Artzi\hspace{1cm}\thepage}
+%\fancyhead[LE]{\thepage\hspace{1cm}Jonathan Ben-Artzi}
+%\fancyhead[RE]{\sl{\leftmark}}
+%\fancyhead[LO]{\sl{\rightmark}}
+
+
+
+    %=======================================================
+    %   THIS IS WHERE YOU PUT SHORTCUT DEFINITIONS
+    %========================================================
+
+% Note that we use a percent sign to comment out a line
+% below are shortcut commands
+
+\newcommand{\abs}[1]{\ensuremath{\left|#1\right|}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% below are shortcuts for equation, eqnarray,
+% itemize and enumerate environments
+
+\newcommand\be{\begin{equation}}
+\newcommand\ee{\end{equation}}
+\newcommand\bes{\begin{equation*}}
+\newcommand\ees{\end{equation*}}
+
+\newcommand\bea{\begin{eqnarray}}
+\newcommand\eea{\end{eqnarray}}
+\newcommand\bi{\begin{itemize}}
+\newcommand\ei{\end{itemize}}
+\newcommand\ben{\begin{enumerate}}
+\newcommand\een{\end{enumerate}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Theorem / Lemmas et cetera
+\theoremstyle{definition}
+\newtheorem{thm}{Theorem}
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{exa}[thm]{Example}
+\newtheorem{defi}[thm]{Definition}
+\newtheorem{nota}[thm]{Notation}
+\newtheorem{exe}[thm]{Exercise}
+\newtheorem{hw}[thm]{Homework}
+\newtheorem{rek}[thm]{Remark}
+\newtheorem{que}[thm]{Question}
+\newtheorem{prob}[thm]{Problem}
+\newtheorem{cla}[thm]{Claim}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% shortcuts to environments
+% this allows you to do textboldface: simply type \tbf{what you want in bold}
+
+\newcommand{\tbf}[1]{\textbf{#1}}
+
+\newcommand{\mr}[1]{\ensuremath{\mathrm{#1}}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% shortcut to twocase and threecase definitions
+
+\newcommand{\twocase}[5]{#1 \begin{cases} #2 & \text{#3}\\ #4
+&\text{#5} \end{cases}   }
+\newcommand{\threecase}[7]{#1 \begin{cases} #2 &
+\text{#3}\\ #4 &\text{#5}\\ #6 &\text{#7} \end{cases}   }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Blackboard Letters
+
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\W}{\mathbb{W}}
+\newcommand{\A}{\mathbb{A}}
+\newcommand{\Qoft}{\mathbb{Q}(t)}  %use in linux
+\newcommand{\ints}{\mathscr{O}}
+
+\newcommand{\aaa}{\mathfrak{a}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Finite Fields and Groups
+
+\newcommand{\Fp}{ \F_p }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fractions
+
+\newcommand{\foh}{\frac{1}{2}}  %onehalf
+\newcommand{\fot}{\frac{1}{3}}
+\newcommand{\fof}{\frac{1}{4}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Legendre Symbols
+
+\newcommand{\js}[1]{ { \underline{#1} \choose p} }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% matrix shortcuts
+
+\newcommand{\mattwo}[4]
+{\left(\begin{array}{cc}
+                        #1  & #2   \\
+                        #3 &  #4
+                          \end{array}\right) }
+
+\newcommand{\matthree}[9]
+{\left(\begin{array}{ccc}
+                        #1  & #2 & #3  \\
+                        #4 &  #5 & #6 \\
+                        #7 &  #8 & #9
+                          \end{array}\right) }
+
+\newcommand{\dettwo}[4]
+{\left|\begin{array}{cc}
+                        #1  & #2   \\
+                        #3 &  #4
+                          \end{array}\right| }
+
+\newcommand{\detthree}[9]
+{\left|\begin{array}{ccc}
+                        #1  & #2 & #3  \\
+                        #4 &  #5 & #6 \\
+                        #7 &  #8 & #9
+                          \end{array}\right| }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% greek letter shortcuts
+
+\newcommand{\ga}{\alpha}                  %gives you a greek alpha
+\newcommand{\gb}{\beta}
+\newcommand{\gep}{\epsilon}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% general functions
+\newcommand{\notdiv}{\nmid}               % gives the not divide symbol
+\newcommand{\bs}{\backslash}            % gives the backslash
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Jonathan Ben-Artzi's shortcuts
+\newcommand{\st}{\; | \;}          % gives the "such that..." notation
+\newcommand{\ve}{\mathbf}
+\newcommand{\p}{\partial}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Control numbering
+%\renewcommand{\labelenumi}{\textbf{\alph{enumi}.}}   % numbering in lists
+%\numberwithin{equation}{document}                             % equation numbering
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% the following makes the numbering start with 1 in each section;
+% if you want the equations numbered 1 to N (without caring about
+% what section you are in, comment out the following line.
+\numberwithin{equation}{section}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%% TITLE %%%%%%%%%%%%%%%%%%%%%
+\title{Euler's Formula}
+\author{MA 6 Problems}
+\date{Due Wednesday, April 22}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Recall that Euler's formula is given by
+\begin{equation*}
+e^{i\theta}=\cos{\theta}+i\sin{\theta}.
+\end{equation*}
+\begin{enumerate}
+\item
+In the following problems you are given a complex number. Using Euler's formula, write this number as $e^{i\theta}$ for an appropriate angle $\theta$. For example, given the number $1+0i$, you should sketch the unit circle, show that this number corresponds to the point $(1,0)$ which has angle $0$, and thus you get $e^{i0}$.
+
+\begin{enumerate}
+\item
+$\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}i$
+
+\item
+$-\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}i$
+
+\item
+$\frac{\sqrt{2}}{2}-\frac{\sqrt{2}}{2}i$
+
+\item
+$-\frac{\sqrt{2}}{2}-\frac{\sqrt{2}}{2}i$
+
+\item
+$-\frac{\sqrt{3}}{2}+\frac{1}{2}i$
+
+\item
+$-1$
+
+\item
+$-i$
+
+\end{enumerate}
+
+\item
+For the following problems you should do the opposite -- given an angle, determine the corresponding complex number.
+
+\begin{enumerate}
+\item
+$\theta=\frac{\pi}{3}$
+
+\item
+$\theta=\frac{\pi}{6}$
+
+\item
+$\theta=\pi$
+
+\item
+$\theta=-60^\circ$
+
+\item
+$\theta=120^\circ$
+
+\item
+$\theta=2\pi$
+
+\item
+$\theta=270^\circ$
+
+\item
+$\theta=\frac{5\pi}{4}$
+
+\end{enumerate}
+\end{enumerate}
+
+\end{document}
+
