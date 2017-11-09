@@ -1,0 +1,1561 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Cauchy Problem in Kinetic Theory: Recent Progress in Collisionless Models</title>
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+div.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+li.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.SpellE {mso-style-name:"";
+	mso-spl-e:yes;}
+div.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+li.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.SpellE1 {mso-style-name:"";
+	mso-spl-e:yes;}
+div.MsoNormal2 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+li.MsoNormal2 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal2 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.SpellE2 {mso-style-name:"";
+	mso-spl-e:yes;}
+div.MsoNormal3 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+li.MsoNormal3 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal3 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.SpellE3 {mso-style-name:"";
+	mso-spl-e:yes;}
+div.MsoNormal4 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+li.MsoNormal4 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal4 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.SpellE4 {mso-style-name:"";
+	mso-spl-e:yes;}
+div.MsoNormal5 {mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"MS Mincho";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+li.MsoNormal5 {mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"MS Mincho";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal5 {mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"MS Mincho";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.SpellE5 {mso-style-name:"";
+	mso-spl-e:yes;}
+p.MsoNormal51 {mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"MS Mincho";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.SpellE51 {mso-style-name:"";
+	mso-spl-e:yes;}
+p.MsoNormal52 {mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"MS Mincho";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.SpellE52 {mso-style-name:"";
+	mso-spl-e:yes;}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/source-sans-pro:n6:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  <header id="top">
+    <h1>The Cauchy Problem in Kinetic Theory    </h1>
+    <nav id="mainnav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="program.html" class="thispage">Program</a></li>
+        <li><a href="participants.html">Participants</a></li>
+        <li><a href="info.html">Visitor Info</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="hero">
+  <img src="images/tokamak.png"/></div>
+  <article id="main2">
+    <h2> Program (<a href="files/Schedule.pdf">PDF</a>)</h2>
+    <div style="float: right;"></div>
+    <p>&nbsp;</p>
+    <p class=MsoNormal2 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>All talks will take place in Huxley 144</span></p>
+    <p class=MsoNormal2 align=center style='text-align:center; font-size: 20.0pt'>&nbsp;</p>
+    <p class=MsoNormal2 align=center style='text-align:center; font-size: 20.0pt'><a href="files/Abstracts.pdf">Abstracts</a></p>
+    <p class=MsoNormal2 align=center style='text-align:center'>&nbsp;</p>
+    <p class=MsoNormal2 align=center style='text-align:center'>&nbsp;</p>
+    <p class=MsoNormal2 align=center style='text-align:center'>&nbsp;</p>
+    <p class=MsoNormal2 align=center style='text-align:center'>&nbsp;</p>
+    <p class=MsoNormal5 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>Monday, September 7, 2015
+      <o:p></o:p>
+    </span></p>
+    <p class=MsoNormal5 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>
+      <o:p>&nbsp;</o:p>
+    </span></p>
+    <div align=center>
+      <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:2.9pt 5.75pt 2.9pt 5.75pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+        <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;background:#EAF1DD;mso-background-themecolor:
+  accent3;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:00-9:30</p></td>
+          <td width=342 valign=top style='width:342.05pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;background:#EAF1DD;mso-background-themecolor:accent3;
+  mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>Registration
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>
+              <o:p>&nbsp;</o:p>
+            </b></p>
+            <p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>
+              <o:p>&nbsp;</o:p>
+            </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:1'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#EAF1DD;mso-background-themecolor:accent3;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:30-9:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#EAF1DD;mso-background-themecolor:
+  accent3;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>Jonathan Ben-<span
+  class=SpellE5>Artzi</span>, <span class=SpellE5>Mahir</span> <span
+  class=SpellE5>Had&#382;i&#263;</span>, Stephen <span class=SpellE5>Pankavich</span>
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5 style='tab-stops:61.35pt'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Welcome
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:2'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#EAF1DD;mso-background-themecolor:accent3;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:45-10:30</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#EAF1DD;mso-background-themecolor:
+  accent3;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>Pierre <span
+  class=SpellE5>Degond</span> (Imperial College) and <a href="files/guo-history.pdf">Yan <span class=SpellE5>Guo</span></a> (Brown)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Welcome and
+              historical remarks
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>
+              <o:p>&nbsp;</o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:3'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FDE9D9;mso-background-themecolor:accent6;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>10:30-11:00</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FDE9D9;mso-background-themecolor:
+  accent6;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Coffee Break
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:4'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>11:00-11:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/golse.pdf">François <span
+  class=SpellE5>Golse</span></a> (<span class=SpellE5>École</span> <span
+  class=SpellE5>polytechnique</span>)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>On the mean-field
+              and classical limits for the N-body Schrödinger equation
+              <o:p></o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:5'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>11:50-12:35</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/guo.pdf">Yan <span
+  class=SpellE5>Guo</span></a> (Brown)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Derivation of steady <span class=SpellE5>Navier</span>-Stokes equations from the Boltzmann theory
+              <o:p></o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:6'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#F2DBDB;mso-background-themecolor:accent2;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>12:35-14:00</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#F2DBDB;mso-background-themecolor:
+  accent2;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Lunch
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:7'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>14:00-14:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b><a href="files/morrison.pdf">Philip</a></b> <a href="files/morrison.pdf"><b>Morrison</b></a><b> (Austin)
+<o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Sculpting <span
+  class=SpellE5>Vlasov</span> phase space
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:8'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FDE9D9;mso-background-themecolor:accent6;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>14:45-15:15</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FDE9D9;mso-background-themecolor:
+  accent6;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Coffee Break
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>
+              <o:p>&nbsp;</o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:9'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>15:15-16:00</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><span class=SpellE5><b style='mso-bidi-font-weight:normal'><a href="files/lin.pdf">Zhiwu</a></b></span><a href="files/lin.pdf"><b
+  style='mso-bidi-font-weight:normal'> <span style='mso-bidi-font-weight:bold'>Lin</span></b></a><b
+  style='mso-bidi-font-weight:normal'> (Georgia Tech)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Instability index,
+              exponential <span class=SpellE5>trichotomy</span> and invariant manifolds for
+              Hamiltonian <span class=SpellE5>PDEs</span></i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:10;mso-yfti-lastrow:yes'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>16:05-16:50</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/despres.pdf">Bruno <span
+  class=SpellE5>Després</span></a> (Paris Pierre et Marie Curie)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Advances in the <span
+  class=SpellE5>modeling</span> of kinetic sheath in plasma
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>
+              <o:p>&nbsp;</o:p>
+            </i></p></td>
+        </tr>
+      </table>
+    </div>
+    <p class=MsoNormal5>
+      <o:p>&nbsp;</o:p>
+    </p>
+    <span style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"MS Mincho";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-GB;mso-fareast-language:
+EN-US'><br clear=ALL style='page-break-before:always'>
+    </span>
+    <p class=MsoNormal5 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>Tuesday, September 8, 2015</span></p>
+    <p class=MsoNormal5 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>
+      <o:p>&nbsp;</o:p>
+    </span></p>
+    <div align=center>
+      <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:2.9pt 5.75pt 2.9pt 5.75pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+        <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:00-9:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>Silvia <span
+  class=SpellE5>Caprino</span> (Roma Tor <span class=SpellE5>Vergata</span>)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>On a <span
+  class=SpellE5>Vlasov</span>-Poisson plasma with infinite charge and velocities
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:1'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:50-10:35</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><span class=SpellE5><b style='mso-bidi-font-weight:normal'><a href="files/miot.pdf">Evelyne</a></b></span><a href="files/miot.pdf"><b
+  style='mso-bidi-font-weight:normal'> <span class=SpellE5><span
+  style='mso-bidi-font-weight:bold'>Miot</span></span></b></a><b
+  style='mso-bidi-font-weight:normal'> (<span class=SpellE5>École</span> <span class=SpellE5>polytechnique</span>)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Uniqueness for the <span
+  class=SpellE5>Vlasov</span>-Poisson system with unbounded density
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>
+              <o:p>&nbsp;</o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:2'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FDE9D9;mso-background-themecolor:accent6;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>10:35-11:00</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FDE9D9;mso-background-themecolor:
+  accent6;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Coffee Break
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:3'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>11:00-11:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/strauss.pdf">Walter Strauss</a> (Brown)
+<o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>A body moving in a
+              kinetic sea
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:4'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>11:50-12:35</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/Schekochihin.pdf">Alexander <span
+  class=SpellE5>Schekochihin</span></a> (Oxford)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Phase mixing vs.
+              nonlinear advection in drift-kinetic plasma turbulence
+              <o:p></o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:5'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#F2DBDB;mso-background-themecolor:accent2;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>12:35-14:30</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#F2DBDB;mso-background-themecolor:
+  accent2;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Lunch + photo
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:6'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>14:30-15:15</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><span class=SpellE5><b style='mso-bidi-font-weight:normal'><a href="files/mouhot.pdf">Clément</a></b></span><a href="files/mouhot.pdf"><b
+  style='mso-bidi-font-weight:normal'> <span class=SpellE5><span
+  style='mso-bidi-font-weight:bold'>Mouhot</span></span></b></a><b
+  style='mso-bidi-font-weight:normal'> (Cambridge)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><span class=SpellE5><i>Hölder</i></span><i> continuity of
+              solutions to <span class=SpellE5>Vlasov</span>-Fokker-Planck type equations
+              with rough coefficients</i><b style='mso-bidi-font-weight:normal'>
+                <o:p></o:p>
+              </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:7'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>15:20-16:05</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/Han-Kwan.pdf">Daniel <span
+  style='mso-bidi-font-weight:bold'>Han-Kwan</span></a> (<span class=SpellE5>École</span> <span class=SpellE5>polytechnique</span>)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>The <span
+  class=SpellE5>quasineutral</span> limit of the <span class=SpellE5>Vlasov</span>-Poisson
+              system</i><b style='mso-bidi-font-weight:normal'>
+                <o:p></o:p>
+              </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:8'>
+          <td width=84 valign=top style='width:83.75pt;border:none;border-bottom:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>
+            <o:p>&nbsp;</o:p>
+          </p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+          <td width=342 valign=top style='width:342.05pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>
+            <o:p>&nbsp;</o:p>
+          </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:9;mso-yfti-lastrow:yes'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#F2DBDB;mso-background-themecolor:accent2;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>18:30-22:30</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#F2DBDB;mso-background-themecolor:
+  accent2;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>Conference Dinner
+            at 170 Queen’s Gate
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'><span
+  style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>18:30 Reception, 19:30 Dinner
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>
+              <o:p>&nbsp;</o:p>
+            </b></p></td>
+        </tr>
+      </table>
+    </div>
+    <p class=MsoNormal5>
+      <o:p>&nbsp;</o:p>
+    </p>
+    <span style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"MS Mincho";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-GB;mso-fareast-language:
+EN-US'><br clear=ALL style='page-break-before:always'>
+    </span>
+    <p class=MsoNormal5 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>Wednesday, September 9, 2015</span></p>
+    <p class=MsoNormal5 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>
+      <o:p>&nbsp;</o:p>
+    </span></p>
+    <div align=center>
+      <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:2.9pt 5.75pt 2.9pt 5.75pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+        <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:00-9:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>Gerhard Rein
+            (Bayreuth)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Gravitational
+              collapse and the <span class=SpellE5>Vlasov</span> equation
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:1'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:50-10:35</p>
+            <p class=MsoNormal5 align=center style='text-align:center'>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/smulevici.pdf">Jacques <span
+  class=SpellE5>Smulevici</span></a> (Paris-<span class=SpellE5>Orsay</span>)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'><span
+  style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'>A
+              vector field method for kinetic transport equations with applications to
+              classical and relativistic systems</span></i><b style='mso-bidi-font-weight:
+  normal'>
+                <o:p></o:p>
+              </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:2'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FDE9D9;mso-background-themecolor:accent6;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>10:35-11:00</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FDE9D9;mso-background-themecolor:
+  accent6;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Coffee Break
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>
+              <o:p>&nbsp;</o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:3'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>11:00-11:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/taylor.pdf">Martin Taylor</a> (Cambridge)
+<o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Stability of <span
+  class=SpellE5>Minkowski</span> space for the <span class=SpellE5>massless</span> Einstein-<span class=SpellE5>Vlasov</span> system</i></p>
+            <p class=MsoNormal5>&nbsp;</p>
+            <p class=MsoNormal5><b style='mso-bidi-font-weight:
+  normal'>
+              <o:p></o:p>
+            </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:4'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>11:50-12:35</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b><a href="files/calogero.pdf">Simone <span class=SpellE5>Calogero</span></a></b><b
+  style='mso-bidi-font-weight:normal'> (Chalmers)
+                <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'><span lang=EN-US
+  style='mso-ansi-language:EN-US'>Relativistic diffusion</span>
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>
+              <o:p>&nbsp;</o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:5'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#F2DBDB;mso-background-themecolor:accent2;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>12:35-14:00</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#F2DBDB;mso-background-themecolor:
+  accent2;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Lunch
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:6'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>14:00-14:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/lemou.pdf">Mohammed <span
+  class=SpellE5><span style='mso-bidi-font-weight:bold'>Lemou</span></span></a> (Rennes)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'><span
+  style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'>On
+              quantitative rearrangement inequalities and their applications to <span
+  class=SpellE5>Vlasov</span>-Poisson, HMF&nbsp;and 2D-Euler systems</span></i><b
+  style='mso-bidi-font-weight:normal'> </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:7'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FDE9D9;mso-background-themecolor:accent6;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>14:45-15:15</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FDE9D9;mso-background-themecolor:
+  accent6;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Coffee Break
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:8'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>15:15-15:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal51><b style='mso-bidi-font-weight:normal'><a href="files/gapyak.pdf">Igor <span
+  class=SpellE51>Gapyak</span></a> (Kyiv)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal51>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal51><i style='mso-bidi-font-style:normal'>On the rigorous
+              derivation of the <span class=SpellE51>Enskog</span> kinetic equation
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal51><b style='mso-bidi-font-weight:normal'>
+              <o:p>&nbsp;</o:p>
+            </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:9'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>15:50-16:20</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><span class=SpellE5><b style='mso-bidi-font-weight:normal'><a href="files/tronci.pdf">Cesare</a></b></span><a href="files/tronci.pdf"><b
+  style='mso-bidi-font-weight:normal'> <span class=SpellE5>Tronci</span></b></a><b
+  style='mso-bidi-font-weight:normal'> (Surrey)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Hybrid kinetic-fluid
+              models for magnetized plasmas
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>
+              <o:p>&nbsp;</o:p>
+            </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:10;mso-yfti-lastrow:yes'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>16:25-16:55</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal52><span class=SpellE52><b style='mso-bidi-font-weight:normal'><a href="files/barre.pdf">Julien</a></b></span><a href="files/barre.pdf"><b
+  style='mso-bidi-font-weight:normal'> <span class=SpellE52>Barré</span></b></a><b
+  style='mso-bidi-font-weight:normal'> (Nice)
+            <o:p></o:p>
+          </b>  (<a href="files/barre_cycle.mp4">1</a>) (<a href="files/barre_dynamic_images.mp4">2</a>)</p>
+            <p class=MsoNormal52>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal52><i style='mso-bidi-font-style:normal'>Perturbation of non
+          homogeneous stationary states of the <span class=SpellE52>Vlasov</span> equation</i></p></td>
+        </tr>
+      </table>
+    </div>
+    <span style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"MS Mincho";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-GB;mso-fareast-language:
+EN-US'><br clear=ALL style='mso-special-character:line-break;page-break-before:
+always'>
+    </span>
+    <p class=MsoNormal5>
+      <o:p>&nbsp;</o:p>
+    </p>
+    <p class=MsoNormal5 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>Thursday, September 10, 2015
+      <o:p></o:p>
+    </span></p>
+    <p class=MsoNormal5 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>
+      <o:p>&nbsp;</o:p>
+    </span></p>
+    <div align=center>
+      <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:2.9pt 5.75pt 2.9pt 5.75pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+        <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:00-9:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/bardos.pdf">Claude <span
+  class=SpellE5>Bardos</span></a> (Paris Diderot)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>About the
+              Maxwell-Boltzmann relation for fluids and plasmas
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:1'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:50-10:35</p>
+            <p class=MsoNormal5 align=center style='text-align:center'>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/bedrossian.pdf">Jacob <span
+  class=SpellE5><span style='mso-bidi-font-weight:bold'>Bedrossian</span></span></a> (Maryland)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Landau damping in <span
+  class=SpellE5>Gevrey</span> regularity for <span class=SpellE5>Vlasov</span>-Poisson
+              and connections with hydrodynamic stability</i><b style='mso-bidi-font-weight:
+  normal'>
+                <o:p></o:p>
+              </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:2'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FDE9D9;mso-background-themecolor:accent6;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>10:35-11:00</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FDE9D9;mso-background-themecolor:
+  accent6;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Coffee Break
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>
+              <o:p>&nbsp;</o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:3'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>11:00-11:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><span class=SpellE5><b style='mso-bidi-font-weight:normal'><a href="files/nguyen.pdf">Toan</a></b></span><a href="files/nguyen.pdf"><b
+  style='mso-bidi-font-weight:normal'> Nguyen</b></a><b
+  style='mso-bidi-font-weight:normal'> (Penn State)
+<o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Stability of a hot
+              plasma in a solid torus
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:4'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>11:50-12:35</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><span
+  style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'><a href="files/holding.pdf">Thomas <strong>Holding</strong></a> (Cambridge) </span>
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>
+              <o:p>&nbsp;</o:p>
+            </i></p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Instability of
+              non-monotone <span class=SpellE5>equilibria</span> of the relativistic <span
+  class=SpellE5>Vlasov</span>-Maxwell system on unbounded domains
+              <o:p></o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:5'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#F2DBDB;mso-background-themecolor:accent2;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>12:35-14:00</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#F2DBDB;mso-background-themecolor:
+  accent2;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Lunch
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><span
+  style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'>
+              <o:p>&nbsp;</o:p>
+            </span></b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:6'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#EAF1DD;mso-background-themecolor:accent3;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>14:00-14:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#EAF1DD;mso-background-themecolor:
+  accent3;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>Claude <span
+  class=SpellE5>Bardos</span> (Paris Diderot)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Open problems and
+              future directions
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:7'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FDE9D9;mso-background-themecolor:accent6;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>14:45-15:15</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FDE9D9;mso-background-themecolor:
+  accent6;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Coffee Break
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>
+              <o:p>&nbsp;</o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:8'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>15:15-16:00</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/gutierrez.pdf">Susana Gutierrez</a> (Birmingham)
+<o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><span class=SpellE5><i style='mso-bidi-font-style:normal'><span
+  style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'>Strichartz</span></i></span><i
+  style='mso-bidi-font-style:normal'><span style='mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman"'> estimates for the kinetic transport
+              equation</span>
+              <o:p></o:p>
+            </i></p>
+            <p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>
+              <o:p>&nbsp;</o:p>
+            </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:9;mso-yfti-lastrow:yes'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>16:05-16:50</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/luk.pdf">Jonathan <span
+  class=SpellE5>Luk</span></a> (Cambridge)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><span class=SpellE5><i style='mso-bidi-font-style:normal'><span
+  style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'>Strichartz</span></i></span><i
+  style='mso-bidi-font-style:normal'><span style='mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman"'> estimates and moment bounds for the <span
+  class=SpellE5>Vlasov</span>-Maxwell system</span></i><b style='mso-bidi-font-weight:
+  normal'>
+              <o:p></o:p>
+            </b></p></td>
+        </tr>
+      </table>
+    </div>
+    <span style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"MS Mincho";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-GB;mso-fareast-language:
+EN-US'><br clear=ALL style='mso-special-character:line-break;page-break-before:
+always'>
+    </span>
+    <p class=MsoNormal5>
+      <o:p>&nbsp;</o:p>
+    </p>
+    <p class=MsoNormal5 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>Friday, September 11, 2015
+      <o:p></o:p>
+    </span></p>
+    <p class=MsoNormal5 align=center style='text-align:center'><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'>
+      <o:p>&nbsp;</o:p>
+    </span></p>
+    <div align=center>
+      <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:2.9pt 5.75pt 2.9pt 5.75pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+        <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:00-9:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/gamba.pdf">Irene <span
+  class=SpellE5><span style='mso-bidi-font-weight:bold'>Gamba</span></span></a> (Austin)
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'><span
+  style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'>On
+              computational issues of <span class=SpellE5>Vlasov</span>-Maxwell and <span
+  class=SpellE5>Vlasov</span>-Poisson-Landau</span>
+              <o:p></o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:1'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>9:50-10:35</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><span class=SpellE5><b style='mso-bidi-font-weight:normal'><span
+  style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'><a href="files/cheng.pdf">Yingda</a></span></b></span><a href="files/cheng.pdf"><b
+  style='mso-bidi-font-weight:normal'><span style='mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman"'> <strong>Cheng</strong></span></b></a><b
+  style='mso-bidi-font-weight:normal'><span style='mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman"'> (Michigan State)</span>
+            <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5><b style='mso-bidi-font-weight:normal'>
+              <o:p>&nbsp;</o:p>
+            </b></p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Energy-conserving
+              discontinuous <span class=SpellE5>Galerkin</span> schemes for the <span
+  class=SpellE5>Vlasov</span>-Maxwell system</i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:2'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FDE9D9;mso-background-themecolor:accent6;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>10:35-11:00</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FDE9D9;mso-background-themecolor:
+  accent6;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Coffee Break
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+        <tr style='mso-yfti-irow:3'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>11:00-11:45</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/campos-pinto.pdf">Martin Campos Pinto</a> (Paris Pierre et Marie Curie)
+<o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'><span
+  style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'>On
+              structure-preserving DG-PIC schemes for the <span class=SpellE5>Vlasov</span>-Maxwell
+              system</span>
+              <o:p></o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:4'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>11:50-12:35</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><span class=SpellE5><b style='mso-bidi-font-weight:normal'><a href="files/bournaveas.pdf">Nikolaos</a></b></span><a href="files/bournaveas.pdf"><b
+  style='mso-bidi-font-weight:normal'> <span class=SpellE5>Bournaveas</span></b></a><b
+  style='mso-bidi-font-weight:normal'> (Edinburgh)
+              <o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Global existence and
+              blow up for some kinetic and hyperbolic models of <span class=SpellE5>chemotaxis</span></i><b
+  style='mso-bidi-font-weight:normal'>
+                <o:p></o:p>
+              </b></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:5'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#DAEEF3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>12:40-13:25</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#DAEEF3;mso-background-themecolor:
+  accent5;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><b style='mso-bidi-font-weight:normal'><a href="files/ibrahim.pdf">Slim Ibrahim</a> (University
+            of Victoria)
+<o:p></o:p>
+          </b></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5><i style='mso-bidi-font-style:normal'>The <span
+  class=SpellE5>Vlasov</span>-Poisson system for stellar dynamics in spaces of
+              constant curvature
+              <o:p></o:p>
+            </i></p></td>
+        </tr>
+        <tr style='mso-yfti-irow:6;mso-yfti-lastrow:yes'>
+          <td width=84 valign=top style='width:83.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#EAF1DD;mso-background-themecolor:accent3;mso-background-themetint:
+  51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5>13:25-13:35</p></td>
+          <td width=342 valign=top style='width:342.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#EAF1DD;mso-background-themecolor:
+  accent3;mso-background-themetint:51;padding:2.9pt 5.75pt 2.9pt 5.75pt'><p class=MsoNormal5><i style='mso-bidi-font-style:normal'>Closing
+            <o:p></o:p>
+          </i></p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p>
+            <p class=MsoNormal5>
+              <o:p>&nbsp;</o:p>
+            </p></td>
+        </tr>
+      </table>
+    </div>
+    <p class=MsoNormal5>
+      <o:p>&nbsp;</o:p>
+    </p>
+    <p class=MsoNormal4 align=center style='text-align:center'>&nbsp;</p>
+    <p class=MsoNormal3 align=center style='text-align:center'>&nbsp;</p>
+    <p class=MsoNormal2 align=center style='text-align:center'>&nbsp;</p>
+    <p>&nbsp;</p>
+  </article>
+
+
+  <footer>
+  <p>&nbsp;</p>
+  </footer>
+</div>
+</body>
+</html>
