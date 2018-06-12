@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.6)  5 JUN 2018 23:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.6)  12 JUN 2018 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -525,41 +525,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--78
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 Missing character: There is no Õ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--103
+Underfull \hbox (badness 10000) in paragraph at lines 106--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--124
+Underfull \hbox (badness 10000) in paragraph at lines 124--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
@@ -574,39 +574,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--162
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--183
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--194
+Underfull \hbox (badness 10000) in paragraph at lines 186--190
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
  (./Abstracts.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
 Package rerunfilecheck Info: File `Abstracts.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
  ) 
 Here is how much of TeX's memory you used:
  6605 strings out of 492995
@@ -625,7 +630,7 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on Abstracts.pdf (4 pages, 99367 bytes).
+Output written on Abstracts.pdf (4 pages, 100638 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
