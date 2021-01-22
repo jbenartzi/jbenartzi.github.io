@@ -102,14 +102,13 @@
             </div>
           </div>
         </div>
-        <img src="images/IMG_4932_copy2.png" alt="Image" class="img-face">
-      </div>
+        <img src="images/IMG_4932_copy2.png" alt="Image" class="img-face"> </div>
       <div class="site-section" id="publications-section">
         <div class="container">
           <div class="row ">
             <div class="col-12 mb-5 position-relative">
               <h2 class="section-title text-center mb-1">Publications &amp;
-                 Preprints</h2>
+                Preprints</h2>
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
