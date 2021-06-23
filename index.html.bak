@@ -112,12 +112,13 @@
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
                   Ben-Artzi, S. Pankavich and J. Zhang</code><br>
-                <span style="color: black;">A toy model for the relativistic Vlasov-Maxwell system</span> <br>
+                 <span style="color: black;">A toy model for the
+                  relativistic Vlasov-Maxwell system</span> <br>
                 <code style="color: #011993;"> <u>Preprint</u>, 13 pages&nbsp;
                   <a href="papers/Toy-Model-1d.pdf"><img src="images/pdf.png" alt="pdf"
                       title="pdf"
                       style="height: 25px;"></a>
-                  <a href="https://arxiv.org/abs/2104.09575"><img src="images/arxiv.png"
+                  <a href="https://arxiv.org/abs/2106.11399"><img src="images/arxiv.png"
                       alt="pdf"
                       title="pdf"
                       style="height: 20px;"></a></code></p>
@@ -153,8 +154,7 @@
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, F. Cacciafesta, A.-S. de Suzzoni and J.
-                  Zhang</code><br>
+                  Ben-Artzi, F. Cacciafesta, A.-S. de Suzzoni and J. Zhang</code><br>
                 <span style="color: black;">Strichartz estimates for the
                   Klein-Gordon equation in a conical singular space</span> <br>
                 <code style="color: #011993;"> <u>Preprint</u>, 44 pages&nbsp;
