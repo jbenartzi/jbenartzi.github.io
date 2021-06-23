@@ -111,6 +111,19 @@
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
+                  Ben-Artzi, S. Pankavich and J. Zhang</code><br>
+                <span style="color: black;">A toy model for the relativistic Vlasov-Maxwell system</span> <br>
+                <code style="color: #011993;"> <u>Preprint</u>, 13 pages&nbsp;
+                  <a href="papers/Toy-Model-1d.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/2104.09575"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
                   Ben-Artzi, M. Marletta and F. Rösler</code><br>
                 <span style="color: black;">Universal algorithms for computing
                   spectra of periodic operators</span> <br>
@@ -140,7 +153,8 @@
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, F. Cacciafesta, A.-S. de Suzzoni and J. Zhang</code><br>
+                  Ben-Artzi, F. Cacciafesta, A.-S. de Suzzoni and J.
+                  Zhang</code><br>
                 <span style="color: black;">Strichartz estimates for the
                   Klein-Gordon equation in a conical singular space</span> <br>
                 <code style="color: #011993;"> <u>Preprint</u>, 44 pages&nbsp;
@@ -242,7 +256,7 @@
                 <span style="color: black;">Uniform convergence in von Neumann’s
                   ergodic theorem in the absence of a spectral gap</span> <br>
                 <code style="color: #011993;"> <u>Ergod. Theor. Dyn. Syst.</u>
-                  (to appear), 15 pages (2020)&nbsp;&nbsp;<a href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/uniform-convergence-in-von-neumanns-ergodic-theorem-in-the-absence-of-a-spectral-gap/86AEEC202E2C47825FE7857D8EF455E8"><img
+                  <strong>41</strong>, 1601-1611 (2021)&nbsp;&nbsp;<a href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/uniform-convergence-in-von-neumanns-ergodic-theorem-in-the-absence-of-a-spectral-gap/86AEEC202E2C47825FE7857D8EF455E8"><img
                       src="images/journal.jpeg"
                       alt="pdf"
                       title="pdf"
