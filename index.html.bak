@@ -1,86 +1,1397 @@
-<!DOCTYPE html><html lang="en">  <head>    <meta http-equiv="content-type" content="text/html; charset=utf-8">    <title>Jonathan Ben-Artzi</title>    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab%7COpen+Sans:300,400,700"      rel="stylesheet">    <link rel="stylesheet" href="fonts/icomoon/style.css">    <link rel="stylesheet" href="css/bootstrap.min.css">    <link rel="stylesheet" href="css/jquery-ui.css">    <link rel="stylesheet" href="css/owl.carousel.min.css">    <link rel="stylesheet" href="css/owl.theme.default.min.css">    <link rel="stylesheet" href="css/owl.theme.default.min.css">    <link rel="stylesheet" href="css/jquery.fancybox.min.css">    <link rel="stylesheet" href="css/bootstrap-datepicker.css">    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">    <link rel="stylesheet" href="css/aos.css">    <link rel="stylesheet" href="css/style.css">  </head>  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">    <div class="site-wrap">      <div class="site-mobile-menu site-navbar-target">        <div class="site-mobile-menu-header">          <div class="site-mobile-menu-close mt-3"> <span class="icon-close2 js-menu-toggle"></span>          </div>        </div>        <div class="site-mobile-menu-body"></div>      </div>      <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">        <div class="container-fluid">          <div class="row align-items-center justify-content-center">            <div class="">              <nav class="site-navigation position-relative text-right" role="navigation">                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">                  <li><a href="#publications-section" class="nav-link">Publications</a></li>                  <li><a href="#teaching-section" class="nav-link">Teaching</a></li>                  <li><a href="#news-section" class="nav-link">News</a></li>                </ul>              </nav>            </div>            <div class=" text-center mx-5">              <h1 class="m-0 site-logo"><a href="#home-section" class="nav-link">Jonathan
-                  Ben-Artzi</a></h1>            </div>            <div class="text-left">              <nav class="site-navigation position-relative" role="navigation">                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">                  <li><a href="#vitae-section" class="nav-link">Vita</a></li>                  <li><a href="#links-section" class="nav-link">Links</a></li>                  <li><a href="#contact-section" class="nav-link">Contact</a></li>                </ul>              </nav>              <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;"><a                  href="#"                  class="site-menu-toggle js-menu-toggle float-right"><span                    class="icon-menu h3"></span></a></div>            </div>          </div>        </div>      </header>      <div class="site-blocks-cover overlay bg-light" id="home-section">        <div class="container">          <div class="row justify-content-center">            <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">              <div class="row">                <div class="col-lg-6">                  <h1 class="text-black">Jonathan Ben-Artzi</h1>                  <p class="lead">Reader (Associate Professor)<br>                    EPSRC Early Career Fellow<br>                    School of Mathematics<br>                    Cardiff University</p>                  <p class="lead"><br>                  </p>                  <p class="lead">Research interests:</p>                  <ul>                    <li><span style="color: #1a1a1a;"><span style="font-family: &quot;Arbutus Slab&quot;,serif;">Analysis,
-                          and in particular:</span></span></li>                    <ul>                      <li><span style=" color: #1a1a1a;"><span style=" font-family: &quot;Arbutus Slab&quot;,serif;">Spectral
-                            theory</span></span></li>                      <li><span style="  color: #1a1a1a;"><span style="  font-family: &quot;Arbutus Slab&quot;,serif;">Approximations
-                            of infinite-dimensional problems<br>                          </span></span></li>                    </ul>                    <li><span style=" color: #1a1a1a;"><span style=" font-family: &quot;Arbutus Slab&quot;,serif;">PDEs,
-                          and in particular:</span></span></li>                    <ul>                      <li><span style="  color: #1a1a1a;"><span style="  font-family: &quot;Arbutus Slab&quot;,serif;">Kinetic
-                            theory</span></span></li>                      <li><span style="   color: #1a1a1a;"><span style="   font-family: &quot;Arbutus Slab&quot;,serif;">Long
-                            time behavior<br>                          </span></span></li>                    </ul>                    <li><span style="   color: #1a1a1a;"><span style="   font-family: &quot;Arbutus Slab&quot;,serif;">Ergodic
-                          theory &amp; Continuous time dynamical systems<br>                        </span></span></li>                  </ul>                </div>              </div>            </div>          </div>        </div>        <img src="images/IMG_4932_copy2.png" alt="Image" class="img-face"> </div>      <div class="site-section" id="publications-section">        <div class="container">          <div class="row ">            <div class="col-12 mb-5 position-relative">              <h2 class="section-title text-center mb-1">Publications &amp;                Preprints</h2>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, M. Marletta and F. Rösler</code><br>                <span style="color: black;">Universal algorithms for solving                  inverse spectral problems</span> <br>                <code style="color: #011993;"><u>Preprint</u>, 26 pages&nbsp; <a                    href="papers/inverse_main.pdf"><img                      src="images/pdf.png"                      alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/2203.13078"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, B. Morisse and S. Pankavich</code><br>                <span style="color: black;">Asymptotic Growth and Decay of                  Two-Dimensional Symmetric Plasmas</span> <br>                <code style="color: #011993;"> <u>Preprint</u>, 26 pages&nbsp;                  <a href="papers/Vlasov-Poisson-2d.pdf"><img src="images/pdf.png"                      alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/2202.03717"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, F. Cacciafesta, A.-S. de Suzzoni and J. Zhang</code><br>                <span style="color: black;">Strichartz estimates for the                  Klein-Gordon equation in a conical singular space</span> <br>                <code style="color: #011993;"> <u>Preprint</u>, 44 pages&nbsp;                  <a href="papers/Strichartz%20estimate%20for%20Klein-Gordon%20equation%20on%20metric%20cone.pdf"><img                      src="images/pdf.png"                      alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="http://arxiv.org/abs/2007.05331"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, M. Colbrook, A. Hansen, O. Nevanlinna and M. Seidel</code><br>                <span style="color: black;">Computing Spectra - On the                  Solvability Complexity Index Hierarchy and Towers of                  Algorithms</span> <br>                <code style="color: #011993;"> <u>Preprint</u>, 93 pages&nbsp;                  <a href="papers/SCI.pdf"><img src="images/pdf.png" alt="pdf" title="pdf"                      style="height: 25px;"></a>                  <a href="http://arxiv.org/abs/1508.03280"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi, A. Hansen, O. Nevanlinna and M. Seidel</code><br>                <span style="color: black;">The Solvability Complexity Index -                  Computer Science and Logic Meet Scientific Computing</span> <br>                <code style="color: #011993;"> <u>Preprint</u>, 15 pages&nbsp;                  <a href="papers/SCI_STOC_Final.pdf"><img src="images/pdf.png"                      alt="pdf"                      title="pdf"                      style="height: 25px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi and B. Morisse</code><br>                <span style="color: black;">Averaging along degenerate flows on                  the annulus</span> <br>                <code style="color: #011993;"> <u>Preprint</u>, 15 pages&nbsp;                  <a href="papers/annulus.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/1902.06681"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, M. Marletta and F. Rösler</code><br>                <span style="color: black;">Computing scattering resonances</span>                <br>                <code style="color: #011993;"><strong>J. Eur. Math. Soc. (JEMS)</strong>                  (accepted), 19 pages&nbsp; <a href="papers/2022.JEMS.pdf"><img                      src="images/pdf.png"                      alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/2006.03368"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, F. Cacciafesta, A.-S. de Suzzoni and J. Zhang</code><br>                <span style="color: black;">Global Strichartz estimates for the                  Dirac equation on symmetric spaces</span> <br>                <code style="color: #011993;"> <strong>Forum of Mathematics,                    Sigma</strong> 10, 1-38 (2022)</code><code style="color: #011993;"><code                    style="color: #011993;">&nbsp;
-                    <a href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/global-strichartz-estimates-for-the-dirac-equation-on-symmetric-spaces/6E8C4DC3EFBADE6B5692104F9E33C4AF#article"><img                        src="images/journal.jpeg"                        alt="pdf"                        title="pdf"                        style="height: 20px;"></a>                    <a href="https://doi.org/10.1017/fms.2022.17"><img src="images/doi.jpg"                        alt="pdf"                        title="pdf"                        style="height: 20px;"></a>                  </code> <a href="papers/2022.Sigma.pdf"><img src="images/pdf.png"                      alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/2101.09218"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, S. Pankavich and J. Zhang</code><br>                <span style="color: black;">A toy model for the relativistic                  Vlasov-Maxwell system</span> <br>                <code style="color: #011993;"> <strong>Kinetic &amp; Related                    Models</strong> 15, 341-354 (2022)&nbsp;&nbsp;<a href="https://www.aimsciences.org/article/doi/10.3934/krm.2021053"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="https://doi.org/10.3934/krm.2021053"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2022.KRM.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/2106.11399"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, M. Marletta and F. Rösler</code><br>                <span style="color: black;">Computing the sound of the sea in a                  seashell</span> <br>                <code style="color: #011993;"> <strong>Found. Comput. Math.                    (FoCM)</strong> (online first), 35 pages (2021)&nbsp;&nbsp;<a                    href="https://rdcu.be/cmjIA"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="https://doi.org/10.1007/s10208-021-09509-9"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2021.FoCM.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px; width: 19px;"></a>                  <a href="https://arxiv.org/abs/2009.02956"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
-                  Ben-Artzi, M. Marletta and F. Rösler</code><br>                <span style="color: black;">Universal algorithms for computing                  spectra of periodic operators</span> <br>                <code style="color: #011993;"> <strong>Numer. Math.</strong>                  150, 719-767 (2022)&nbsp;&nbsp;<a href="https://rdcu.be/cGZF5"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="https://doi.org/10.1007/s00211-021-01265-w"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a><a                    href="papers/2022.NumMath.pdf">                    <img src="images/pdf.png" alt="pdf" title="pdf" style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/2104.09575"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi and B. Morisse</code><br>                <span style="color: black;">Uniform convergence in von Neumann’s                  ergodic theorem in the absence of a spectral gap</span> <br>                <code style="color: #011993;"> <strong>Ergod. Theor. Dyn. Syst.</strong>                  <strong> </strong>41, 1601-1611 (2021)&nbsp;&nbsp;<a href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/uniform-convergence-in-von-neumanns-ergodic-theorem-in-the-absence-of-a-spectral-gap/86AEEC202E2C47825FE7857D8EF455E8"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="https://doi.org/10.1017/etds.2020.30"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2020.ETDS.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/1902.03953"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi and A. Einav</code><br>                <span style="color: black;">Weak Poincaré inequalities in the                  absence of spectral gaps</span> <br>                <code style="color: #011993;"> <strong>Ann. Henri Poincaré </strong>21,
-                  359-375 (2020)&nbsp;&nbsp;<a href="https://link.springer.com/article/10.1007/s00023-019-00858-4"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="https://doi.org/10.1007/s00023-019-00858-4"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2020.AHP.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/1805.08557"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi, S. Calogero and S. Pankavich</code><br>                <span style="color: black;"> Concentrating solutions of the                  relativistic Vlasov-Maxwell system</span> <br>                <code style="color: #011993;"> <strong>Commun. Math. Sci.</strong>                  17, 377-392 (2019)&nbsp;&nbsp;<a href="https://www.intlpress.com/site/pub/pages/journals/items/cms/content/vols/0017/0002/a004/index.php?mode=ns"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="http://dx.doi.org/10.4310/CMS.2019.v17.n2.a4"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2019.CMS.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/1807.02801"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi, S. Calogero and S. Pankavich</code><br>                <span style="color: black;">Arbitrarily large solutions of the                  Vlasov-Poisson system</span> <br>                <code style="color: #011993;"> <strong>SIAM J. Math. Anal.</strong>                  50, 4311-4326 (2018)&nbsp;&nbsp;<a href="https://epubs.siam.org/doi/10.1137/17M1142715"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="https://doi.org/10.1137/17M1142715"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2018.SIMA.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="https://arxiv.org/abs/1708.02307"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi, D. Marahrens and S. Neukamm</code><br>                <span style="color: black;">Moment bounds on the corrector of                  stochastic homogenization of non-symmetric elliptic finite                  difference equations</span> <br>                <code style="color: #011993;"> <strong>Commun. PDE</strong> 42,                  179-234 (2017)&nbsp;&nbsp;<a href="http://www.tandfonline.com/doi/full/10.1080/03605302.2017.1281298"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="http://dx.doi.org/10.1080/03605302.2017.1281298"><img                      src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2017.CPDE.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="http://arxiv.org/abs/1407.6984"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi and T. Holding</code><br>                <span style="color: black;">Instabilities of the relativistic                  Vlasov-Maxwell system on unbounded domains</span> <br>                <code style="color: #011993;"> <strong>SIAM J. Math. Anal.</strong>                  49, 4024-4063 (2017)&nbsp;&nbsp;<a href="http://epubs.siam.org/doi/10.1137/15M1025396"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="https://doi.org/10.1137/15M1025396"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2017.SIMA.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="http://arxiv.org/abs/1505.05672"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi and T. Holding</code><br>                <span style="color: black;">Approximations of strongly                  continuous families of unbounded self-adjoint operators</span>                <br>                <code style="color: #011993;"> <strong>Commun. Math. Phys.</strong>                  345, 615-630 (2016)&nbsp;&nbsp;<a href="http://link.springer.com/article/10.1007/s00220-016-2637-4"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="http://dx.doi.org/10.1007/s00220-016-2637-4"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2016.CMP.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="http://arxiv.org/abs/1403.3963"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>&nbsp;</code><a                  href="papers/2016.CMP.erratum.pdf"><span                    style="color: #011993;">erratum</span></a></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi, A. Hansen, O. Nevanlinna and M. Seidel</code><br>                <span style="color: black;">New barriers in complexity theory:                  On The Solvability Complexity Index and Towers of Algorithms</span>                <br>                <code style="color: #011993;"> <strong>C. R. Acad. Sci.</strong>                  353, 931-936 (2015)&nbsp;&nbsp;<a href="http://www.sciencedirect.com/science/article/pii/S1631073X15002137"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="http://dx.doi.org/10.1016/j.crma.2015.08.002"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2015.CRAS.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi</code><br>                <span style="color: black;">Instabilities in kinetic theory and                  their relationship to the ergodic theorem</span> <br>                <code style="color: #011993;"> <strong>Contemp. Math.</strong>                  653, 25-40 (2015)&nbsp;&nbsp;<a href="http://www.ams.org/books/conm/653/"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="http://dx.doi.org/10.1090/conm/653"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2015.ContempMath.pdf"><img src="images/pdf.png"                      alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="http://arxiv.org/abs/1402.7104"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi</code><br>                <span style="color: black;">On the spectrum of shear flows and                  uniform ergodic theorems</span> <br>                <code style="color: #011993;"> <strong>J. Funct. Anal.</strong>                  267, 299-322 (2014)&nbsp;&nbsp;<a href="http://www.sciencedirect.com/science/article/pii/S0022123614001736"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="http://dx.doi.org/10.1016/j.jfa.2014.04.012"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2014.JFA.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="http://arxiv.org/abs/1310.7219"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi</code><br>                <span style="color: black;">Instability of nonsymmetric                  nonmonotone equilibria of the Vlasov-Maxwell system</span> <br>                <code style="color: #011993;"> <strong>J. Math. Phys.</strong>                  52, 123703, 21 pages (2011)&nbsp;&nbsp;<a href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="http://dx.doi.org/10.1063/1.3670874"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2011.JMP.pdf"><img src="images/pdf.png" alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="http://arxiv.org/abs/1104.5277"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>            <div class="col-md-11 service h-12">              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code                  style="color: #9437ff;">J.
-                  Ben-Artzi</code><br>                <span style="color: black;">Instability of nonmonotone magnetic                  equilibria of the relativistic Vlasov-Maxwell system</span> <br>                <code style="color: #011993;"> <strong>Nonlinearity</strong>                  24, 3353-3389 (2011)&nbsp;&nbsp;<a href="http://iopscience.iop.org/0951-7715/24/12/004"><img                      src="images/journal.jpeg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="http://dx.doi.org/10.1088/0951-7715/24/12/004"><img src="images/doi.jpg"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a>                  <a href="papers/2011.Nonlinearity.pdf"><img src="images/pdf.png"                      alt="pdf"                      title="pdf"                      style="height: 25px;"></a>                  <a href="http://arxiv.org/abs/1008.2451"><img src="images/arxiv.png"                      alt="pdf"                      title="pdf"                      style="height: 20px;"></a></code></p>            </div>          </div>        </div>      </div>      <div class="site-section" id="teaching-section">        <div class="container">          <div class="row ">            <div class="col-12 mb-5 position-relative">              <h2 class="section-title text-center mb-1">Teaching &amp;                Supervision</h2>            </div>            <div class="col-lg-7 order-1 order-lg-1">              <h5 style="background-color: #397261;"><span style="color: white;">&nbsp;Current
-                  Teaching</span></h5>              <p><br>              </p>              <table border="0" width="100%">                <tbody>                  <tr>                    <td>Not teaching this semester</td>                    <td valign="top"> <br>                    </td>                  </tr>                </tbody>              </table>              <h5><br>              </h5>              <h5><br>              </h5>              <h5 style="background-color: #466f61;"><span style="color: white;">&nbsp;Past
-                  Teaching</span></h5>              <p> </p>              <strong>Cardiff University</strong><strong><br>              </strong>              <table border="0" width="100%">                <tbody>                  <tr>                    <td>MA3010: Differential Geometry of Curves and Surfaces</td>                    <td>                      <div align="right">Autumn 2018</div>                    </td>                  </tr>                </tbody>              </table>              <p><br>              </p>              <strong>Imperial College London</strong><strong><br>              </strong>              <table border="0" width="100%">                <tbody>                  <tr>                    <td><a href="https://jbenartzi.github.io/2015.Dispersive/index.html">Dispersive
-                        Equations</a></td>                    <td>                      <div align="right">Autumn 2015</div>                    </td>                  </tr>                </tbody>              </table>              <p><br>              </p>              <strong>Cambridge University</strong><strong><br>              </strong>              <table border="0" width="100%">                <tbody>                  <tr>                    <td>Vector Calculus (supervisions)</td>                    <td>                      <div align="right">Spring 2012 &amp; Spring 2013</div>                    </td>                  </tr>                  <tr>                    <td>Numerical Analysis (supervisions)</td>                    <td>                      <div align="right">Spring 2013</div>                    </td>                  </tr>                  <tr>                    <td>Methods (supervisions)</td>                    <td>                      <div align="right">Autumn 2011 &amp; Autumn 2012</div>                    </td>                  </tr>                  <tr>                    <td>Vectors &amp; Matrices (supervisions)</td>                    <td>                      <div align="right">Autumn 2012</div>                    </td>                  </tr>                  <tr>                    <td>Kinetic Theory (supervisions)</td>                    <td>                      <div align="right">Autumn 2011</div>                    </td>                  </tr>                </tbody>              </table>              <p><br>              </p>              <strong>Brown University<br>              </strong>              <table border="0" width="100%">                <tbody>                  <tr>                    <td><a href="https://jbenartzi.github.io/2010.Fall.MA18/index.html">MA0180</a>:                      Intermediate Calculus</td>                    <td>                      <div align="right">Autumn 2010</div>                    </td>                  </tr>                  <tr>                    <td><a href="https://jbenartzi.github.io/2009.Fall.MA18/index.html">MA0180</a>:                      Intermediate Calculus</td>                    <td>                      <div align="right">Autumn 2009</div>                    </td>                  </tr>                  <tr>                    <td><a href="https://jbenartzi.github.io/2009.Spring.MA6/index.html">MA0060</a>:                      Analytic Geometry &amp; Calculus</td>                    <td>                      <div align="right">Spring 2009</div>                    </td>                  </tr>                  <tr>                    <td><a href="https://jbenartzi.github.io/2008.Fall.MA35/index.html">MA0350</a>:                      Honors Calculus</td>                    <td>                      <div align="right">Autumn 2008</div>                    </td>                  </tr>                </tbody>              </table>            </div>            <div class="col-lg-5 order-2 order-lg-2">              <h5 style="background-color: #466f61;"><span style="color: white;">&nbsp;Postdocs
-                  &amp; Fellows</span></h5>              <p> </p>              <table border="0" width="100%">                <tbody>                  <tr>                    <td><a href="https://frank-roesler.github.io/">Frank Rösler</a></td>                    <td valign="top">                      <div align="right">2018-2022</div>                    </td>                  </tr>                  <tr>                    <td><a href="https://zhangjunyongbit.wordpress.com/">Junyong                        Zhang</a></td>                    <td>                      <div align="right">2018-2020</div>                    </td>                  </tr>                  <tr>                    <td>Baptiste Morisse</td>                    <td>                      <div align="right">2017-2020</div>                    </td>                  </tr>                </tbody>              </table>              <h5><br>              </h5>              <h5><br>              </h5>              <h5 style="background-color: #466f61;"><span style="color: white;">&nbsp;PhD
-                  Supervision</span></h5>              <p> </p>              <table border="0" width="100%">                <tbody>                  <tr>                    <td><a href="https://alexeistepa.github.io/"><strong></strong>Alexei
-                        Stepanenko</a><br>                    </td>                    <td valign="top">                      <div align="right">2018-2022</div>                    </td>                  </tr>                  <tr>                    <td>Thomas Holding (informal supervision)</td>                    <td>                      <div align="right">2012-2016</div>                    </td>                  </tr>                </tbody>              </table>              <h5><br>              </h5>              <h5><br>              </h5>              <h5 style="background-color: #466f61;"><span style="color: white;">&nbsp;Undergraduate
-                  &amp; Masters Supervision</span></h5>              <p> </p>              <table border="0" width="100%">                <tbody>                  <tr>                    <td><strong></strong>Thomas Anquetil</td>                    <td valign="top">                      <div align="right">Summer 2018</div>                    </td>                  </tr>                  <tr>                    <td><strong></strong>Maria del Valle Varo</td>                    <td>                      <div align="right">Summer 2016</div>                    </td>                  </tr>                  <tr>                    <td>Paul Ramond</td>                    <td>                      <div align="right">2015-2016</div>                    </td>                  </tr>                  <tr>                    <td>Wei Yu</td>                    <td>                      <div align="right">Summer 2015</div>                    </td>                  </tr>                  <tr>                    <td><strong></strong>Charafeddine Mouzouni</td>                    <td>                      <div align="right">Spring 2015</div>                    </td>                  </tr>                  <tr>                    <td>Zhuo Min Lim</td>                    <td>                      <div align="right">2013-2014</div>                    </td>                  </tr>                  <tr>                    <td>Thomas Holding</td>                    <td>                      <div align="right">2012-2013</div>                    </td>                  </tr>                  <tr>                    <td>Luca Calatroni</td>                    <td>                      <div align="right">2011-2012</div>                    </td>                  </tr>                </tbody>              </table>              <p> </p>            </div>          </div>        </div>      </div>      <section class="site-section bg-dark">        <div class="site-section" id="news-section">          <div class="container">            <div class="row ">              <div class="col-12 mb-5 position-relative">                <h2 class="section-title text-center mb-5"><span style="color: white;">News</span></h2>              </div>              <div class="col-md-6 mb-4">                <div class="service d-flex h-100" style="background-color: #2b2f33;">                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Feb<br>                        2020<br>                      </span></strong></div>                  <div class="service-about">                    <h3><span style="color: #86d6ba;">Marie Skłodowska-Curie                        Fellowship</span></h3>                    <p style="text-align: justify;"><span style="color: #d6d6d6;">Postdoc
-                        Frank Rösler has been awarded a Marie Skłodowska-Curie                        Fellowship which will commence October 2020 and run for                        two years. <a href="https://cordis.europa.eu/project/id/885904">More
-                          details</a>.</span></p>                  </div>                </div>              </div>              <div class="col-md-6 mb-4">                <div class="service d-flex h-100" style="background-color: #2b2f33;">                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">June<br>                        2019</span></strong></div>                  <div class="service-about">                    <h3><span style="color: #86d6ba;">Small Scales and                        Homogenisation (SmaSH) Workshop</span></h3>                    <p style="text-align: justify;"><span style="color: #d6d6d6;">Together
-                        with Baptiste Morisse and Frank Rösler we organized a                        workshop which was held in Cardiff between 24-26 June                        2019. <a href="https://jbenartzi.github.io/Conference-2019/index.html">Website</a>.<br>                      </span></p>                  </div>                </div>              </div>              <div class="col-md-6 mb-4">                <div class="service d-flex h-100" style="background-color: #2b2f33;">                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Sept<br>                        2018</span></strong></div>                  <div class="service-about">                    <h3><span style="color: #86d6ba;">South Wales Analysis &amp;                        Probability Seminar (SWAP)<br>                      </span></h3>                    <p style="text-align: justify;"><span style="color: #d6d6d6;">I                        organize (jointly with Swansea University) a quarterly                        seminar in analysis, probability and related fields.                        Seminar <a href="https://jbenartzi.github.io/SWAP/index.html">website</a>.</span></p>                  </div>                </div>              </div>              <div class="col-md-6 mb-4">                <div class="service d-flex h-100" style="background-color: #2b2f33;">                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Sept<br>                        2018</span></strong></div>                  <div class="service-about">                    <h3><span style="color: #86d6ba;">Intradisciplinary Lecture                        Series (ILS)<br>                      </span></h3>                    <p style="text-align: justify;"><span style="color: #d6d6d6;">I                        organize the Intradisciplinary Lecture Series, which is                        our internal colloquium in the School of Mathematics.                        Website <a href="https://www.cardiff.ac.uk/mathematics/events/intradisciplinary-lecture-series">here</a>.<br>                      </span></p>                  </div>                </div>              </div>              <div class="col-md-6 mb-4">                <div class="service d-flex h-100" style="background-color: #2b2f33;">                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">June<br>                        2018</span></strong></div>                  <div class="service-about">                    <h3><span style="color: #86d6ba;">An Analyst, a Geometer and                        a Probabilist Walk Into a Bar<br>                      </span></h3>                    <p style="text-align: justify;"><span style="color: #d6d6d6;">Together
-                        with Baptiste Morisse we organized a workshop which was                        held in Cardiff between 25-29 June 2018. Workshop <a href="https://jbenartzi.github.io/Conference-2018/index.html">                          website</a>.<br>                      </span></p>                  </div>                </div>              </div>              <div class="col-md-6 mb-4">                <div class="service d-flex h-100" style="background-color: #2b2f33;">                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Feb<br>                        2018</span></strong></div>                  <div class="service-about">                    <h3><span style="color: #86d6ba;">Marie Skłodowska-Curie                        Fellowship</span></h3>                    <p style="text-align: justify;"><span style="color: #d6d6d6;">Junyong
-                        Zhang has been awarded a Marie Skłodowska-Curie                        Fellowship which will run between 2018-2020. This was                        the top ranked application in 2018. <a href="https://www.cardiff.ac.uk/news/view/1216694-marie-skodowska-curie-fellowship">News
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Jonathan Ben-Artzi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab%7COpen+Sans:300,400,700"
+      rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-wrap">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3"> <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+      <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-center">
+            <div class="">
+              <nav class="site-navigation position-relative text-right" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                  <li><a href="#publications-section" class="nav-link">Publications</a></li>
+                  <li><a href="#teaching-section" class="nav-link">Teaching</a></li>
+                  <li><a href="#news-section" class="nav-link">News</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class=" text-center mx-5">
+              <h1 class="m-0 site-logo"><a href="#home-section" class="nav-link">Jonathan
+                  Ben-Artzi</a></h1>
+            </div>
+            <div class="text-left">
+              <nav class="site-navigation position-relative" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                  <li><a href="#vitae-section" class="nav-link">Vita</a></li>
+                  <li><a href="#links-section" class="nav-link">Links</a></li>
+                  <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;"><a
+                  href="#"
+                  class="site-menu-toggle js-menu-toggle float-right"><span
+                    class="icon-menu h3"></span></a></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="site-blocks-cover overlay bg-light" id="home-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h1 class="text-black">Jonathan Ben-Artzi</h1>
+                  <p class="lead">Reader (Associate Professor)<br>
+                    EPSRC Early Career Fellow<br>
+                    School of Mathematics<br>
+                    Cardiff University</p>
+                  <p class="lead"><br>
+                  </p>
+                  <p class="lead">Research interests:</p>
+                  <ul>
+                    <li><span style="color: #1a1a1a;"><span style="font-family: &quot;Arbutus Slab&quot;,serif;">Analysis,
+                          and in particular:</span></span></li>
+                    <ul>
+                      <li><span style=" color: #1a1a1a;"><span style=" font-family: &quot;Arbutus Slab&quot;,serif;">Spectral
+                            theory</span></span></li>
+                      <li><span style="  color: #1a1a1a;"><span style="  font-family: &quot;Arbutus Slab&quot;,serif;">Approximations
+                            of infinite-dimensional problems<br>
+                          </span></span></li>
+                    </ul>
+                    <li><span style=" color: #1a1a1a;"><span style=" font-family: &quot;Arbutus Slab&quot;,serif;">PDEs,
+                          and in particular:</span></span></li>
+                    <ul>
+                      <li><span style="  color: #1a1a1a;"><span style="  font-family: &quot;Arbutus Slab&quot;,serif;">Kinetic
+                            theory</span></span></li>
+                      <li><span style="   color: #1a1a1a;"><span style="   font-family: &quot;Arbutus Slab&quot;,serif;">Long
+                            time behavior<br>
+                          </span></span></li>
+                    </ul>
+                    <li><span style="   color: #1a1a1a;"><span style="   font-family: &quot;Arbutus Slab&quot;,serif;">Ergodic
+                          theory &amp; Continuous time dynamical systems<br>
+                        </span></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="images/IMG_4932_copy2.png" alt="Image" class="img-face"> </div>
+      <div class="site-section" id="publications-section">
+        <div class="container">
+          <div class="row ">
+            <div class="col-12 mb-5 position-relative">
+              <h2 class="section-title text-center mb-1">Publications &amp;
+                Preprints</h2>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
+                  Ben-Artzi, M. Marletta and F. Rösler</code><br>
+                <span style="color: black;">Universal algorithms for solving
+                  inverse spectral problems</span> <br>
+                <code style="color: #011993;"><u>Preprint</u>, 26 pages&nbsp; <a
+                    href="papers/inverse_main.pdf"><img
+                      src="images/pdf.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/2203.13078"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
+                  Ben-Artzi, B. Morisse and S. Pankavich</code><br>
+                <span style="color: black;">Asymptotic Growth and Decay of
+                  Two-Dimensional Symmetric Plasmas</span> <br>
+                <code style="color: #011993;"> <u>Preprint</u>, 26 pages&nbsp;
+                  <a href="papers/Vlasov-Poisson-2d.pdf"><img src="images/pdf.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/2202.03717"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
+                  Ben-Artzi, F. Cacciafesta, A.-S. de Suzzoni and J. Zhang</code><br>
+                <span style="color: black;">Strichartz estimates for the
+                  Klein-Gordon equation in a conical singular space</span> <br>
+                <code style="color: #011993;"> <u>Preprint</u>, 44 pages&nbsp;
+                  <a href="papers/Strichartz%20estimate%20for%20Klein-Gordon%20equation%20on%20metric%20cone.pdf"><img
+                      src="images/pdf.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="http://arxiv.org/abs/2007.05331"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
+                  Ben-Artzi, M. Colbrook, A. Hansen, O. Nevanlinna and M. Seidel</code><br>
+                <span style="color: black;">Computing Spectra - On the
+                  Solvability Complexity Index Hierarchy and Towers of
+                  Algorithms</span> <br>
+                <code style="color: #011993;"> <u>Preprint</u>, 93 pages&nbsp;
+                  <a href="papers/SCI.pdf"><img src="images/pdf.png" alt="pdf" title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="http://arxiv.org/abs/1508.03280"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi, A. Hansen, O. Nevanlinna and M. Seidel</code><br>
+                <span style="color: black;">The Solvability Complexity Index -
+                  Computer Science and Logic Meet Scientific Computing</span> <br>
+                <code style="color: #011993;"> <u>Preprint</u>, 15 pages&nbsp;
+                  <a href="papers/SCI_STOC_Final.pdf"><img src="images/pdf.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi and B. Morisse</code><br>
+                <span style="color: black;">Averaging along degenerate flows on
+                  the annulus</span> <br>
+                <code style="color: #011993;"> <u>Preprint</u>, 15 pages&nbsp;
+                  <a href="papers/annulus.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/1902.06681"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
+                  Ben-Artzi, M. Marletta and F. Rösler</code><br>
+                <span style="color: black;">Computing scattering resonances</span>
+                <br>
+                <code style="color: #011993;"><strong>J. Eur. Math. Soc. (JEMS)</strong>
+                  (accepted), 19 pages&nbsp; <a href="papers/2022.JEMS.pdf"><img
+                      src="images/pdf.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/2006.03368"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
+                  Ben-Artzi, F. Cacciafesta, A.-S. de Suzzoni and J. Zhang</code><br>
+                <span style="color: black;">Global Strichartz estimates for the
+                  Dirac equation on symmetric spaces</span> <br>
+                <code style="color: #011993;"> <strong>Forum of Mathematics,
+                    Sigma</strong> 10, 1-38 (2022)</code><code style="color: #011993;"><code
+                    style="color: #011993;">&nbsp;
+                    <a href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/global-strichartz-estimates-for-the-dirac-equation-on-symmetric-spaces/6E8C4DC3EFBADE6B5692104F9E33C4AF#article"><img
+                        src="images/journal.jpeg"
+                        alt="pdf"
+                        title="pdf"
+                        style="height: 20px;"></a>
+                    <a href="https://doi.org/10.1017/fms.2022.17"><img src="images/doi.jpg"
+                        alt="pdf"
+                        title="pdf"
+                        style="height: 20px;"></a>
+                  </code> <a href="papers/2022.Sigma.pdf"><img src="images/pdf.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/2101.09218"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
+                  Ben-Artzi, S. Pankavich and J. Zhang</code><br>
+                <span style="color: black;">A toy model for the relativistic
+                  Vlasov-Maxwell system</span> <br>
+                <code style="color: #011993;"> <strong>Kinetic &amp; Related
+                    Models</strong> 15, 341-354 (2022)&nbsp;&nbsp;<a href="https://www.aimsciences.org/article/doi/10.3934/krm.2021053"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="https://doi.org/10.3934/krm.2021053"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2022.KRM.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/2106.11399"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
+                  Ben-Artzi, M. Marletta and F. Rösler</code><br>
+                <span style="color: black;">Computing the sound of the sea in a
+                  seashell</span> <br>
+                <code style="color: #011993;"> <strong>Found. Comput. Math.
+                    (FoCM)</strong> 22, 697-731 (2022)&nbsp;&nbsp;<a href="https://rdcu.be/cmjIA"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="https://doi.org/10.1007/s10208-021-09509-9"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2021.FoCM.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px; width: 19px;"></a>
+                  <a href="https://arxiv.org/abs/2009.02956"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code style="color: #9437ff;">J.
+                  Ben-Artzi, M. Marletta and F. Rösler</code><br>
+                <span style="color: black;">Universal algorithms for computing
+                  spectra of periodic operators</span> <br>
+                <code style="color: #011993;"> <strong>Numer. Math.</strong>
+                  150, 719-767 (2022)&nbsp;&nbsp;<a href="https://rdcu.be/cGZF5"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="https://doi.org/10.1007/s00211-021-01265-w"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a><a
+                    href="papers/2022.NumMath.pdf">
+                    <img src="images/pdf.png" alt="pdf" title="pdf" style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/2104.09575"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi and B. Morisse</code><br>
+                <span style="color: black;">Uniform convergence in von Neumann’s
+                  ergodic theorem in the absence of a spectral gap</span> <br>
+                <code style="color: #011993;"> <strong>Ergod. Theor. Dyn. Syst.</strong>
+                  <strong> </strong>41, 1601-1611 (2021)&nbsp;&nbsp;<a href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/uniform-convergence-in-von-neumanns-ergodic-theorem-in-the-absence-of-a-spectral-gap/86AEEC202E2C47825FE7857D8EF455E8"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="https://doi.org/10.1017/etds.2020.30"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2020.ETDS.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/1902.03953"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi and A. Einav</code><br>
+                <span style="color: black;">Weak Poincaré inequalities in the
+                  absence of spectral gaps</span> <br>
+                <code style="color: #011993;"> <strong>Ann. Henri Poincaré </strong>21,
+                  359-375 (2020)&nbsp;&nbsp;<a href="https://link.springer.com/article/10.1007/s00023-019-00858-4"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="https://doi.org/10.1007/s00023-019-00858-4"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2020.AHP.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/1805.08557"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi, S. Calogero and S. Pankavich</code><br>
+                <span style="color: black;"> Concentrating solutions of the
+                  relativistic Vlasov-Maxwell system</span> <br>
+                <code style="color: #011993;"> <strong>Commun. Math. Sci.</strong>
+                  17, 377-392 (2019)&nbsp;&nbsp;<a href="https://www.intlpress.com/site/pub/pages/journals/items/cms/content/vols/0017/0002/a004/index.php?mode=ns"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="http://dx.doi.org/10.4310/CMS.2019.v17.n2.a4"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2019.CMS.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/1807.02801"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi, S. Calogero and S. Pankavich</code><br>
+                <span style="color: black;">Arbitrarily large solutions of the
+                  Vlasov-Poisson system</span> <br>
+                <code style="color: #011993;"> <strong>SIAM J. Math. Anal.</strong>
+                  50, 4311-4326 (2018)&nbsp;&nbsp;<a href="https://epubs.siam.org/doi/10.1137/17M1142715"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="https://doi.org/10.1137/17M1142715"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2018.SIMA.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="https://arxiv.org/abs/1708.02307"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi, D. Marahrens and S. Neukamm</code><br>
+                <span style="color: black;">Moment bounds on the corrector of
+                  stochastic homogenization of non-symmetric elliptic finite
+                  difference equations</span> <br>
+                <code style="color: #011993;"> <strong>Commun. PDE</strong> 42,
+                  179-234 (2017)&nbsp;&nbsp;<a href="http://www.tandfonline.com/doi/full/10.1080/03605302.2017.1281298"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="http://dx.doi.org/10.1080/03605302.2017.1281298"><img
+                      src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2017.CPDE.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="http://arxiv.org/abs/1407.6984"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi and T. Holding</code><br>
+                <span style="color: black;">Instabilities of the relativistic
+                  Vlasov-Maxwell system on unbounded domains</span> <br>
+                <code style="color: #011993;"> <strong>SIAM J. Math. Anal.</strong>
+                  49, 4024-4063 (2017)&nbsp;&nbsp;<a href="http://epubs.siam.org/doi/10.1137/15M1025396"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="https://doi.org/10.1137/15M1025396"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2017.SIMA.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="http://arxiv.org/abs/1505.05672"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi and T. Holding</code><br>
+                <span style="color: black;">Approximations of strongly
+                  continuous families of unbounded self-adjoint operators</span>
+                <br>
+                <code style="color: #011993;"> <strong>Commun. Math. Phys.</strong>
+                  345, 615-630 (2016)&nbsp;&nbsp;<a href="http://link.springer.com/article/10.1007/s00220-016-2637-4"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="http://dx.doi.org/10.1007/s00220-016-2637-4"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2016.CMP.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="http://arxiv.org/abs/1403.3963"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>&nbsp;</code><a
+                  href="papers/2016.CMP.erratum.pdf"><span
+                    style="color: #011993;">erratum</span></a></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi, A. Hansen, O. Nevanlinna and M. Seidel</code><br>
+                <span style="color: black;">New barriers in complexity theory:
+                  On The Solvability Complexity Index and Towers of Algorithms</span>
+                <br>
+                <code style="color: #011993;"> <strong>C. R. Acad. Sci.</strong>
+                  353, 931-936 (2015)&nbsp;&nbsp;<a href="http://www.sciencedirect.com/science/article/pii/S1631073X15002137"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="http://dx.doi.org/10.1016/j.crma.2015.08.002"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2015.CRAS.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi</code><br>
+                <span style="color: black;">Instabilities in kinetic theory and
+                  their relationship to the ergodic theorem</span> <br>
+                <code style="color: #011993;"> <strong>Contemp. Math.</strong>
+                  653, 25-40 (2015)&nbsp;&nbsp;<a href="http://www.ams.org/books/conm/653/"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="http://dx.doi.org/10.1090/conm/653"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2015.ContempMath.pdf"><img src="images/pdf.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="http://arxiv.org/abs/1402.7104"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi</code><br>
+                <span style="color: black;">On the spectrum of shear flows and
+                  uniform ergodic theorems</span> <br>
+                <code style="color: #011993;"> <strong>J. Funct. Anal.</strong>
+                  267, 299-322 (2014)&nbsp;&nbsp;<a href="http://www.sciencedirect.com/science/article/pii/S0022123614001736"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="http://dx.doi.org/10.1016/j.jfa.2014.04.012"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2014.JFA.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="http://arxiv.org/abs/1310.7219"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi</code><br>
+                <span style="color: black;">Instability of nonsymmetric
+                  nonmonotone equilibria of the Vlasov-Maxwell system</span> <br>
+                <code style="color: #011993;"> <strong>J. Math. Phys.</strong>
+                  52, 123703, 21 pages (2011)&nbsp;&nbsp;<a href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="http://dx.doi.org/10.1063/1.3670874"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2011.JMP.pdf"><img src="images/pdf.png" alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="http://arxiv.org/abs/1104.5277"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+            <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px; width: 100%;"><code
+                  style="color: #9437ff;">J.
+                  Ben-Artzi</code><br>
+                <span style="color: black;">Instability of nonmonotone magnetic
+                  equilibria of the relativistic Vlasov-Maxwell system</span> <br>
+                <code style="color: #011993;"> <strong>Nonlinearity</strong>
+                  24, 3353-3389 (2011)&nbsp;&nbsp;<a href="http://iopscience.iop.org/0951-7715/24/12/004"><img
+                      src="images/journal.jpeg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="http://dx.doi.org/10.1088/0951-7715/24/12/004"><img src="images/doi.jpg"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a>
+                  <a href="papers/2011.Nonlinearity.pdf"><img src="images/pdf.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 25px;"></a>
+                  <a href="http://arxiv.org/abs/1008.2451"><img src="images/arxiv.png"
+                      alt="pdf"
+                      title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-section" id="teaching-section">
+        <div class="container">
+          <div class="row ">
+            <div class="col-12 mb-5 position-relative">
+              <h2 class="section-title text-center mb-1">Teaching &amp;
+                Supervision</h2>
+            </div>
+            <div class="col-lg-7 order-1 order-lg-1">
+              <h5 style="background-color: #397261;"><span style="color: white;">&nbsp;Current
+                  Teaching</span></h5>
+              <p><br>
+              </p>
+              <table border="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td>Not teaching this semester</td>
+                    <td valign="top"> <br>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5><br>
+              </h5>
+              <h5><br>
+              </h5>
+              <h5 style="background-color: #466f61;"><span style="color: white;">&nbsp;Past
+                  Teaching</span></h5>
+              <p> </p>
+              <strong>Cardiff University</strong><strong><br>
+              </strong>
+              <table border="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td>MA3010: Differential Geometry of Curves and Surfaces</td>
+                    <td>
+                      <div align="right">Autumn 2018</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p><br>
+              </p>
+              <strong>Imperial College London</strong><strong><br>
+              </strong>
+              <table border="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td><a href="https://jbenartzi.github.io/2015.Dispersive/index.html">Dispersive
+                        Equations</a></td>
+                    <td>
+                      <div align="right">Autumn 2015</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p><br>
+              </p>
+              <strong>Cambridge University</strong><strong><br>
+              </strong>
+              <table border="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td>Vector Calculus (supervisions)</td>
+                    <td>
+                      <div align="right">Spring 2012 &amp; Spring 2013</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Numerical Analysis (supervisions)</td>
+                    <td>
+                      <div align="right">Spring 2013</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Methods (supervisions)</td>
+                    <td>
+                      <div align="right">Autumn 2011 &amp; Autumn 2012</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Vectors &amp; Matrices (supervisions)</td>
+                    <td>
+                      <div align="right">Autumn 2012</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Kinetic Theory (supervisions)</td>
+                    <td>
+                      <div align="right">Autumn 2011</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p><br>
+              </p>
+              <strong>Brown University<br>
+              </strong>
+              <table border="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td><a href="https://jbenartzi.github.io/2010.Fall.MA18/index.html">MA0180</a>:
+                      Intermediate Calculus</td>
+                    <td>
+                      <div align="right">Autumn 2010</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://jbenartzi.github.io/2009.Fall.MA18/index.html">MA0180</a>:
+                      Intermediate Calculus</td>
+                    <td>
+                      <div align="right">Autumn 2009</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://jbenartzi.github.io/2009.Spring.MA6/index.html">MA0060</a>:
+                      Analytic Geometry &amp; Calculus</td>
+                    <td>
+                      <div align="right">Spring 2009</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://jbenartzi.github.io/2008.Fall.MA35/index.html">MA0350</a>:
+                      Honors Calculus</td>
+                    <td>
+                      <div align="right">Autumn 2008</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-lg-5 order-2 order-lg-2">
+              <h5 style="background-color: #466f61;"><span style="color: white;">&nbsp;Postdocs
+                  &amp; Fellows</span></h5>
+              <p> </p>
+              <table border="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td><a href="https://frank-roesler.github.io/">Frank Rösler</a></td>
+                    <td valign="top">
+                      <div align="right">2018-2022</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://zhangjunyongbit.wordpress.com/">Junyong
+                        Zhang</a></td>
+                    <td>
+                      <div align="right">2018-2020</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Baptiste Morisse</td>
+                    <td>
+                      <div align="right">2017-2020</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5><br>
+              </h5>
+              <h5><br>
+              </h5>
+              <h5 style="background-color: #466f61;"><span style="color: white;">&nbsp;PhD
+                  Supervision</span></h5>
+              <p> </p>
+              <table border="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td><a href="https://alexeistepa.github.io/"><strong></strong>Alexei
+                        Stepanenko</a><br>
+                    </td>
+                    <td valign="top">
+                      <div align="right">2018-2022</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Thomas Holding (informal supervision)</td>
+                    <td>
+                      <div align="right">2012-2016</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5><br>
+              </h5>
+              <h5><br>
+              </h5>
+              <h5 style="background-color: #466f61;"><span style="color: white;">&nbsp;Undergraduate
+                  &amp; Masters Supervision</span></h5>
+              <p> </p>
+              <table border="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td><strong></strong>Thomas Anquetil</td>
+                    <td valign="top">
+                      <div align="right">Summer 2018</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong></strong>Maria del Valle Varo</td>
+                    <td>
+                      <div align="right">Summer 2016</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Paul Ramond</td>
+                    <td>
+                      <div align="right">2015-2016</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Wei Yu</td>
+                    <td>
+                      <div align="right">Summer 2015</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong></strong>Charafeddine Mouzouni</td>
+                    <td>
+                      <div align="right">Spring 2015</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Zhuo Min Lim</td>
+                    <td>
+                      <div align="right">2013-2014</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Thomas Holding</td>
+                    <td>
+                      <div align="right">2012-2013</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Luca Calatroni</td>
+                    <td>
+                      <div align="right">2011-2012</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="site-section bg-dark">
+        <div class="site-section" id="news-section">
+          <div class="container">
+            <div class="row ">
+              <div class="col-12 mb-5 position-relative">
+                <h2 class="section-title text-center mb-5"><span style="color: white;">News</span></h2>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="service d-flex h-100" style="background-color: #2b2f33;">
+                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Feb<br>
+                        2020<br>
+                      </span></strong></div>
+                  <div class="service-about">
+                    <h3><span style="color: #86d6ba;">Marie Skłodowska-Curie
+                        Fellowship</span></h3>
+                    <p style="text-align: justify;"><span style="color: #d6d6d6;">Postdoc
+                        Frank Rösler has been awarded a Marie Skłodowska-Curie
+                        Fellowship which will commence October 2020 and run for
+                        two years. <a href="https://cordis.europa.eu/project/id/885904">More
+                          details</a>.</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="service d-flex h-100" style="background-color: #2b2f33;">
+                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">June<br>
+                        2019</span></strong></div>
+                  <div class="service-about">
+                    <h3><span style="color: #86d6ba;">Small Scales and
+                        Homogenisation (SmaSH) Workshop</span></h3>
+                    <p style="text-align: justify;"><span style="color: #d6d6d6;">Together
+                        with Baptiste Morisse and Frank Rösler we organized a
+                        workshop which was held in Cardiff between 24-26 June
+                        2019. <a href="https://jbenartzi.github.io/Conference-2019/index.html">Website</a>.<br>
+                      </span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="service d-flex h-100" style="background-color: #2b2f33;">
+                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Sept<br>
+                        2018</span></strong></div>
+                  <div class="service-about">
+                    <h3><span style="color: #86d6ba;">South Wales Analysis &amp;
+                        Probability Seminar (SWAP)<br>
+                      </span></h3>
+                    <p style="text-align: justify;"><span style="color: #d6d6d6;">I
+                        organize (jointly with Swansea University) a quarterly
+                        seminar in analysis, probability and related fields.
+                        Seminar <a href="https://jbenartzi.github.io/SWAP/index.html">website</a>.</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="service d-flex h-100" style="background-color: #2b2f33;">
+                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Sept<br>
+                        2018</span></strong></div>
+                  <div class="service-about">
+                    <h3><span style="color: #86d6ba;">Intradisciplinary Lecture
+                        Series (ILS)<br>
+                      </span></h3>
+                    <p style="text-align: justify;"><span style="color: #d6d6d6;">I
+                        organize the Intradisciplinary Lecture Series, which is
+                        our internal colloquium in the School of Mathematics.
+                        Website <a href="https://www.cardiff.ac.uk/mathematics/events/intradisciplinary-lecture-series">here</a>.<br>
+                      </span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="service d-flex h-100" style="background-color: #2b2f33;">
+                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">June<br>
+                        2018</span></strong></div>
+                  <div class="service-about">
+                    <h3><span style="color: #86d6ba;">An Analyst, a Geometer and
+                        a Probabilist Walk Into a Bar<br>
+                      </span></h3>
+                    <p style="text-align: justify;"><span style="color: #d6d6d6;">Together
+                        with Baptiste Morisse we organized a workshop which was
+                        held in Cardiff between 25-29 June 2018. Workshop <a href="https://jbenartzi.github.io/Conference-2018/index.html">
+                          website</a>.<br>
+                      </span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="service d-flex h-100" style="background-color: #2b2f33;">
+                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Feb<br>
+                        2018</span></strong></div>
+                  <div class="service-about">
+                    <h3><span style="color: #86d6ba;">Marie Skłodowska-Curie
+                        Fellowship</span></h3>
+                    <p style="text-align: justify;"><span style="color: #d6d6d6;">Junyong
+                        Zhang has been awarded a Marie Skłodowska-Curie
+                        Fellowship which will run between 2018-2020. This was
+                        the top ranked application in 2018. <a href="https://www.cardiff.ac.uk/news/view/1216694-marie-skodowska-curie-fellowship">News
                           item</a> and <a href="https://cordis.europa.eu/project/rcn/215017_en.html">abstract
-                          of the fellowship</a>.<br>                      </span></p>                  </div>                </div>              </div>              <div class="col-md-6 mb-4">                <div class="service d-flex h-100" style="background-color: #2b2f33;">                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Sept<br>                        2016</span></strong></div>                  <div class="service-about">                    <h3><span style="color: #86d6ba;">Quantitative Estimates in                        Spectral Theory and Their Complexity</span></h3>                    <p style="text-align: justify;"><span style="color: #d6d6d6;">My
-                        EPSRC Fellowship entitled QUEST (Quantitative Estimates                        in Spectral Theory and Their Complexity) will run until                        2021. Project <a href="https://cardiffquest.blog/">website</a>.<br>                      </span></p>                  </div>                </div>              </div>              <div class="col-md-6 mb-4">                <div class="service d-flex h-100" style="background-color: #2b2f33;">                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Sept<br>                        2015</span></strong></div>                  <div class="service-about">                    <h3><span style="color: #86d6ba;">The Cauchy Problem in                        Kinetic Theory: Recent Progress in Collisionless Models</span></h3>                    <p style="text-align: justify;"><span style="color: #d6d6d6;">With
-                        Mahir Hadžić and Stephen Pankavich we organized a                        workshop which was held at Imperial College between 7-11                        September 2015. <a href="https://jbenartzi.github.io/Conference-2015/index.html">Website</a>.<br>                      </span></p>                  </div>                </div>              </div>            </div>          </div>        </div>      </section>      <div class="site-section" id="vitae-section">        <div class="container">          <div class="row ">            <div class="col-12 mb-5 position-relative">              <h2 class="section-title text-center mb-1">Curriculum Vitae <a href="files/BenArtzi-CV.pdf"><img                    src="images/pdf.png"                    alt="pdf"                    title="pdf"                    style="height: 35px;"></a></h2>            </div>            <div class="col-md-6 mb-4">              <div class="service  h-100">                <div class="service-about">                  <div class="service-number mr-4" style="text-align: center;">                    <h3 style="text-align: left;"><span class="icon-work"></span>                      Employment </h3>                  </div>                  <p><br>                  </p>                  <table border="0" width="100%">                    <tbody>                      <tr>                        <td><strong>Cardiff University</strong>, Cardiff, UK</td>                        <td>                          <div align="right">since 2016<em></em></div>                        </td>                      </tr>                      <tr>                        <td><strong>Durham University</strong>, Durham, UK</td>                        <td>                          <div align="right">2016<em></em></div>                        </td>                      </tr>                      <tr>                        <td><strong>Imperial College London</strong>, London, UK</td>                        <td>                          <div align="right">2014-2016<em></em></div>                        </td>                      </tr>                      <tr>                        <td><strong>Cambridge University</strong>, Cambridge, UK</td>                        <td>                          <div align="right">2011-2014<em></em></div>                        </td>                      </tr>                    </tbody>                  </table>                  <p></p>                </div>              </div>            </div>            <div class="col-md-6 mb-4">              <div class="service h-100">                <div class="service-about">                  <div class="service-number mr-4" style="text-align: center;">                    <h3 style="text-align: left;"><span class="icon-school"></span>                      Qualifications </h3>                  </div>                  <p><br>                  </p>                  <table border="0" width="100%">                    <tbody>                      <tr>                        <td><strong>Brown University</strong>, Providence, RI,                          USA<br>                          <div style="margin-left: 40px;">Supervisor: Walter                            Strauss</div>                        </td>                        <td valign="top">                          <div align="right">PhD 2011</div>                        </td>                      </tr>                      <tr>                        <td><strong>Hebrew University</strong>, Jerusalem,                          Israel</td>                        <td>                          <div align="right">BSc 2006</div>                        </td>                      </tr>                    </tbody>                  </table>                  <p></p>                </div>              </div>            </div>            <div class="col-md-6 mb-4">              <div class="service h-100">                <div class="service-about">                  <div class="service-number mr-4" style="text-align: center;">                    <h3 style="text-align: left;"><span class="icon-cake"></span>                      Major Awards &amp; Honours </h3>                  </div>                  <p><br>                  </p>                  <table border="0" width="100%">                    <tbody>                      <tr>                        <td><strong>Marie Skłodowska-Curie Fellowship</strong><br>                          <div style="margin-left: 40px;">Role: supervisor of Dr                            Frank Rösler</div>                          <div style="margin-left: 40px;">Ref: <a href="https://cordis.europa.eu/project/id/885904">                              885904</a>, Value: €212,934</div>                        </td>                        <td valign="top">                          <div align="right">2020-2022</div>                        </td>                      </tr>                      <tr>                        <td><strong>Marie Skłodowska-Curie Fellowship</strong><br>                          <div style="margin-left: 40px;">Role: supervisor of Dr                            Junyong Zhang</div>                          <div style="margin-left: 40px;">Ref: <a href="https://cordis.europa.eu/project/id/790623">790623</a>,                            Value: €195,458</div>                        </td>                        <td valign="top">                          <div align="right">2018-2020</div>                        </td>                      </tr>                      <tr>                        <td><strong>EPSRC Early Career Fellowship</strong><br>                          <div style="margin-left: 40px;">Ref: <a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/N020154/1">EP/N020154/1</a>,                            Value: £977,978</div>                        </td>                        <td valign="top">                          <div align="right">2016-2022</div>                        </td>                      </tr>                      <tr>                        <td><strong>Junior Research Fellowship</strong><br>                          <div style="margin-left: 40px;">Imperial College                            London, Value: £175,000</div>                        </td>                        <td valign="top">                          <div align="right">2014-2017</div>                        </td>                      </tr>                      <tr>                        <td><strong>Supernumerary Fellowship</strong><br>                          <div style="margin-left: 40px;">Pembroke College                            Cambridge</div>                        </td>                        <td valign="top">                          <div align="right">2011-2013</div>                        </td>                      </tr>                      <tr>                        <td><strong>Outstanding Teaching Award</strong><br>                          <div style="margin-left: 40px;">Dept. of Mathematics,                            Brown University</div>                        </td>                        <td valign="top">                          <div align="right">2011</div>                        </td>                      </tr>                      <tr>                        <td><strong>Coline M. Makepeace Fellowship</strong><br>                          <div style="margin-left: 40px;">Brown University</div>                        </td>                        <td valign="top">                          <div align="right">2006-2007</div>                        </td>                      </tr>                    </tbody>                  </table>                  <p></p>                </div>              </div>            </div>            <div class="col-md-6 mb-4">              <div class="service h-100">                <div class="service-about">                  <div class="service-number mr-4" style="text-align: center;">                    <h3 style="text-align: left;"><span class="icon-chat"></span>                      Seminar Talks </h3>                  </div>                </div>                <p><br>                </p>                Some of the institutions where I have given talks:<br>                <br>                <div style="text-align: justify;">Brown University, Cardiff                  University, Columbia University, Hebrew University of                  Jerusalem, Imperial College London, Max Planck Institute                  Leipzig, McGill University, Princeton University,                  Technion-Israel Institute of Technology, Université                  Aix-Marseille, University College London, University of Bath,                  University of Cambridge, University of Crete, University of                  Glasgow, University of Oxford, University of Paris 13,                  University of Reading, University of Surrey, University of                  Sussex, University of Warwick </div>                <p></p>              </div>            </div>            <div class="col-md-12 mb-4">              <div class="service h-100">                <div class="service-about">                  <div class="service-number mr-4" style="text-align: center;">                    <h3 style="text-align: left;"><span class="icon-chat"></span>                      Invited Conference/Workshop Presentations </h3>                  </div>                </div>                <p><br>                </p>                <div style="text-align: justify;">                  <ul>                    <li><a href="http://www.birs.ca/events/2022/5-day-workshops/22w5115">BIRS
-                        Workshop: Mathematical aspects of the physics with                        non-self-adjoint operators</a>, Banff, Canada, July 2022</li>                    <li><a href="https://www.lancaster.ac.uk/maths/iwotauk2021/">International
-                        Workshop on Operator Theory and its Applications</a>,                      Lancaster, UK, August 2021 [online]</li>                    <li><a href="https://moa.sciencesconf.org/">Modélisation                        océan-atmosphère</a>, Rennes, France, September 2019</li>                    <li>The 23rd Bi-Annual Mini-Workshop in Applied and                      Computational Mathematics, Jerusalem, Israel, December                      2018</li>                    <li><a href="http://sites.maths.cf.ac.uk/swngsn/meetings-2/meeting-8/">8th
-                        Meeting of the South-West Network in Generalised                        Solutions for Nonlinear PDEs</a>, Cardiff, UK, September                      2017</li>                    <li><a href="http://www.math.le.ac.uk/people/ag153/homepage/HilbertWeb/HilbertWorkshop2016.htm">Workshop
-                        on Hilbert's Sixth Problem</a>, Leicester, UK, May 2016</li>                    <li><a href="http://mopnet.cardiff.ac.uk/Bath-WIMCS.html">Bath-WIMCS
-                        Analysis Day</a>, Cardiff, UK, September 2015</li>                    <li><a href="http://www.birs.ca/events/2015/5-day-workshops/15w5049">BIRS-CMO
-                        Workshop: Kinetic and Related Equations</a>, Oaxaca,                      Mexico, July 2015 (<a href="http://www.birs.ca/events/2015/5-day-workshops/15w5049/videos/watch/201507090955-Ben-Artzi.html">video</a>                      of my talk)</li>                    <li><a href="http://www.braude.ac.il/conferences/cads7/">Complex
-                        Analysis and Dynamical Systems VII</a>, Nahariya,                      Israel, May 2015</li>                    <li><a href="http://wwwf.imperial.ac.uk/%7Eruzh/IC-2014-Microlocal-Day-5.htm">Microlocal
-                        Day 5</a>, Imperial College London, London, UK, January                      2015</li>                    <li><a href="http://www.aimsciences.org/conferences/2014/">The
-                        10th AIMS Conference on Dynamical Systems, Differential                        Equations and Applications</a>, Madrid, Spain, July 2014</li>                    <li><a href="http://www.talks.cam.ac.uk/show/archive/43662">Mathematical
-                        topics in kinetic theory</a>, Cambridge, UK, June 2013</li>                    <li><a href="http://conferences.braude.ac.il/math/Math2013/">Complex
-                        Analysis and Dynamical Systems VI</a>, Nahariya, Israel,                      May 2013</li>                    <li><a href="https://www.cirm-math.fr/Archives/?EX=liste_participants&amp;annee=2011&amp;id_renc=565&amp;num_semaine=0">Probabilistic
+                          of the fellowship</a>.<br>
+                      </span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="service d-flex h-100" style="background-color: #2b2f33;">
+                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Sept<br>
+                        2016</span></strong></div>
+                  <div class="service-about">
+                    <h3><span style="color: #86d6ba;">Quantitative Estimates in
+                        Spectral Theory and Their Complexity</span></h3>
+                    <p style="text-align: justify;"><span style="color: #d6d6d6;">My
+                        EPSRC Fellowship entitled QUEST (Quantitative Estimates
+                        in Spectral Theory and Their Complexity) will run until
+                        2021. Project <a href="https://cardiffquest.blog/">website</a>.<br>
+                      </span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="service d-flex h-100" style="background-color: #2b2f33;">
+                  <div style="width: 200px;"><strong><span style="color: #86d6ba;">Sept<br>
+                        2015</span></strong></div>
+                  <div class="service-about">
+                    <h3><span style="color: #86d6ba;">The Cauchy Problem in
+                        Kinetic Theory: Recent Progress in Collisionless Models</span></h3>
+                    <p style="text-align: justify;"><span style="color: #d6d6d6;">With
+                        Mahir Hadžić and Stephen Pankavich we organized a
+                        workshop which was held at Imperial College between 7-11
+                        September 2015. <a href="https://jbenartzi.github.io/Conference-2015/index.html">Website</a>.<br>
+                      </span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="site-section" id="vitae-section">
+        <div class="container">
+          <div class="row ">
+            <div class="col-12 mb-5 position-relative">
+              <h2 class="section-title text-center mb-1">Curriculum Vitae <a href="files/BenArtzi-CV.pdf"><img
+                    src="images/pdf.png"
+                    alt="pdf"
+                    title="pdf"
+                    style="height: 35px;"></a></h2>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="service  h-100">
+                <div class="service-about">
+                  <div class="service-number mr-4" style="text-align: center;">
+                    <h3 style="text-align: left;"><span class="icon-work"></span>
+                      Employment </h3>
+                  </div>
+                  <p><br>
+                  </p>
+                  <table border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td><strong>Cardiff University</strong>, Cardiff, UK</td>
+                        <td>
+                          <div align="right">since 2016<em></em></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Durham University</strong>, Durham, UK</td>
+                        <td>
+                          <div align="right">2016<em></em></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Imperial College London</strong>, London, UK</td>
+                        <td>
+                          <div align="right">2014-2016<em></em></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Cambridge University</strong>, Cambridge, UK</td>
+                        <td>
+                          <div align="right">2011-2014<em></em></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="service h-100">
+                <div class="service-about">
+                  <div class="service-number mr-4" style="text-align: center;">
+                    <h3 style="text-align: left;"><span class="icon-school"></span>
+                      Qualifications </h3>
+                  </div>
+                  <p><br>
+                  </p>
+                  <table border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td><strong>Brown University</strong>, Providence, RI,
+                          USA<br>
+                          <div style="margin-left: 40px;">Supervisor: Walter
+                            Strauss</div>
+                        </td>
+                        <td valign="top">
+                          <div align="right">PhD 2011</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Hebrew University</strong>, Jerusalem,
+                          Israel</td>
+                        <td>
+                          <div align="right">BSc 2006</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="service h-100">
+                <div class="service-about">
+                  <div class="service-number mr-4" style="text-align: center;">
+                    <h3 style="text-align: left;"><span class="icon-cake"></span>
+                      Major Awards &amp; Honours </h3>
+                  </div>
+                  <p><br>
+                  </p>
+                  <table border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td><strong>Marie Skłodowska-Curie Fellowship</strong><br>
+                          <div style="margin-left: 40px;">Role: supervisor of Dr
+                            Frank Rösler</div>
+                          <div style="margin-left: 40px;">Ref: <a href="https://cordis.europa.eu/project/id/885904">
+                              885904</a>, Value: €212,934</div>
+                        </td>
+                        <td valign="top">
+                          <div align="right">2020-2022</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Marie Skłodowska-Curie Fellowship</strong><br>
+                          <div style="margin-left: 40px;">Role: supervisor of Dr
+                            Junyong Zhang</div>
+                          <div style="margin-left: 40px;">Ref: <a href="https://cordis.europa.eu/project/id/790623">790623</a>,
+                            Value: €195,458</div>
+                        </td>
+                        <td valign="top">
+                          <div align="right">2018-2020</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>EPSRC Early Career Fellowship</strong><br>
+                          <div style="margin-left: 40px;">Ref: <a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/N020154/1">EP/N020154/1</a>,
+                            Value: £977,978</div>
+                        </td>
+                        <td valign="top">
+                          <div align="right">2016-2022</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Junior Research Fellowship</strong><br>
+                          <div style="margin-left: 40px;">Imperial College
+                            London, Value: £175,000</div>
+                        </td>
+                        <td valign="top">
+                          <div align="right">2014-2017</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Supernumerary Fellowship</strong><br>
+                          <div style="margin-left: 40px;">Pembroke College
+                            Cambridge</div>
+                        </td>
+                        <td valign="top">
+                          <div align="right">2011-2013</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Outstanding Teaching Award</strong><br>
+                          <div style="margin-left: 40px;">Dept. of Mathematics,
+                            Brown University</div>
+                        </td>
+                        <td valign="top">
+                          <div align="right">2011</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Coline M. Makepeace Fellowship</strong><br>
+                          <div style="margin-left: 40px;">Brown University</div>
+                        </td>
+                        <td valign="top">
+                          <div align="right">2006-2007</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="service h-100">
+                <div class="service-about">
+                  <div class="service-number mr-4" style="text-align: center;">
+                    <h3 style="text-align: left;"><span class="icon-chat"></span>
+                      Seminar Talks </h3>
+                  </div>
+                </div>
+                <p><br>
+                </p>
+                Some of the institutions where I have given talks:<br>
+                <br>
+                <div style="text-align: justify;">Brown University, Cardiff
+                  University, Columbia University, Hebrew University of
+                  Jerusalem, Imperial College London, Max Planck Institute
+                  Leipzig, McGill University, Princeton University,
+                  Technion-Israel Institute of Technology, Université
+                  Aix-Marseille, University College London, University of Bath,
+                  University of Cambridge, University of Crete, University of
+                  Glasgow, University of Oxford, University of Paris 13,
+                  University of Reading, University of Surrey, University of
+                  Sussex, University of Warwick </div>
+                <p></p>
+              </div>
+            </div>
+            <div class="col-md-12 mb-4">
+              <div class="service h-100">
+                <div class="service-about">
+                  <div class="service-number mr-4" style="text-align: center;">
+                    <h3 style="text-align: left;"><span class="icon-chat"></span>
+                      Invited Conference/Workshop Presentations </h3>
+                  </div>
+                </div>
+                <p><br>
+                </p>
+                <div style="text-align: justify;">
+                  <ul>
+                    <li><a href="https://www.maths.ox.ac.uk/node/60407">PDE
+                        WORKSHOP: Stability Analysis for Nonlinear PDEs</a>,
+                      Oxford, UK, August 2022</li>
+                    <li><a href="http://www.birs.ca/events/2022/5-day-workshops/22w5115">BIRS
+                        Workshop: Mathematical aspects of the physics with
+                        non-self-adjoint operators</a>, Banff, Canada, July 2022</li>
+                    <li><a href="https://www.lancaster.ac.uk/maths/iwotauk2021/">International
+                        Workshop on Operator Theory and its Applications</a>,
+                      Lancaster, UK, August 2021 [online]</li>
+                    <li><a href="https://moa.sciencesconf.org/">Modélisation
+                        océan-atmosphère</a>, Rennes, France, September 2019</li>
+                    <li>The 23rd Bi-Annual Mini-Workshop in Applied and
+                      Computational Mathematics, Jerusalem, Israel, December
+                      2018</li>
+                    <li><a href="http://sites.maths.cf.ac.uk/swngsn/meetings-2/meeting-8/">8th
+                        Meeting of the South-West Network in Generalised
+                        Solutions for Nonlinear PDEs</a>, Cardiff, UK, September
+                      2017</li>
+                    <li><a href="http://www.math.le.ac.uk/people/ag153/homepage/HilbertWeb/HilbertWorkshop2016.htm">Workshop
+                        on Hilbert's Sixth Problem</a>, Leicester, UK, May 2016</li>
+                    <li><a href="http://mopnet.cardiff.ac.uk/Bath-WIMCS.html">Bath-WIMCS
+                        Analysis Day</a>, Cardiff, UK, September 2015</li>
+                    <li><a href="http://www.birs.ca/events/2015/5-day-workshops/15w5049">BIRS-CMO
+                        Workshop: Kinetic and Related Equations</a>, Oaxaca,
+                      Mexico, July 2015 (<a href="http://www.birs.ca/events/2015/5-day-workshops/15w5049/videos/watch/201507090955-Ben-Artzi.html">video</a>
+                      of my talk)</li>
+                    <li><a href="http://www.braude.ac.il/conferences/cads7/">Complex
+                        Analysis and Dynamical Systems VII</a>, Nahariya,
+                      Israel, May 2015</li>
+                    <li><a href="http://wwwf.imperial.ac.uk/%7Eruzh/IC-2014-Microlocal-Day-5.htm">Microlocal
+                        Day 5</a>, Imperial College London, London, UK, January
+                      2015</li>
+                    <li><a href="http://www.aimsciences.org/conferences/2014/">The
+                        10th AIMS Conference on Dynamical Systems, Differential
+                        Equations and Applications</a>, Madrid, Spain, July 2014</li>
+                    <li><a href="http://www.talks.cam.ac.uk/show/archive/43662">Mathematical
+                        topics in kinetic theory</a>, Cambridge, UK, June 2013</li>
+                    <li><a href="http://conferences.braude.ac.il/math/Math2013/">Complex
+                        Analysis and Dynamical Systems VI</a>, Nahariya, Israel,
+                      May 2013</li>
+                    <li><a href="https://www.cirm-math.fr/Archives/?EX=liste_participants&amp;annee=2011&amp;id_renc=565&amp;num_semaine=0">Probabilistic
 methods
-                        in kinetic theory</a>, CIRM, Luminy, France, July 2011</li>                    <li><a href="http://www.cs.uga.edu/%7Ethiab/waves2011.html">The
+                        in kinetic theory</a>, CIRM, Luminy, France, July 2011</li>
+                    <li><a href="http://www.cs.uga.edu/%7Ethiab/waves2011.html">The
 Seventh
-                        IMACS International Conference on Nonlinear Evolution                        Equations and Wave Phenomena: Computation and Theory</a>,                      University of Georgia, Athens, GA, USA, April 2011</li>                  </ul>                </div>                <p></p>              </div>            </div>          </div>        </div>      </div>    </div>    <section class="site-section bg-dark">      <div class="site-section" id="links-section">        <div class="container">          <div class="row ">            <div class="col-12 mb-5 position-relative">              <h2 class="section-title text-center mb-5"><span style="color: white;">Links</span></h2>            </div>            <div class="col-lg-4 order-1 order-lg-1" style="background-color: #2b2f33;">              <p> </p>              <h5 style="text-align: center;"><span style="color: #c7d4d0;">Cardiff
-                  University</span></h5>              <p><br>              </p>              <a href="http://www.cardiff.ac.uk/mathematics" style="color: #86d6ba;">School
-                of Mathematics</a> <br>              <a href="https://jbenartzi.github.io/seminars.html" style="color: #86d6ba;">Mathematics
-                Seminars Calendar</a><br>              <a href="http://www.cardiff.ac.uk/research/explore/research-units/mathematical-analysis"                style="color: #86d6ba;">Analysis
-                Research Group</a> <br>              <a href="https://jbenartzi.github.io/Cardiff.Informal/index.html"                style="color: #86d6ba;">Informal
-                Analysis &amp; PDE Seminar</a><br>              <a href="https://jbenartzi.github.io/SWAP/index.html" style="color: #86d6ba;">South
-                Wales Analysis and Probability Seminar</a><br>              <br>              <a href="http://www.cardiff.ac.uk/libraries" style="color: #86d6ba;">University
-                Library</a> <br>              <a href="http://sites.cardiff.ac.uk/events/" style="color: #86d6ba;">University
-                Events</a>              <p></p>              <h5 style="background-color: #466f61;"></h5>              <p> </p>            </div>            <div class="col-lg-4 order-2 order-lg-2" style="background-color: #232629;">              <p> </p>              <h5 style="text-align: center;"><span style="color: #c7d4d0;">Other
-                  Math Departments</span></h5>              <p><br>              </p>              <a href="https://www.imperial.ac.uk/pure-analysis-and-pdes" style="color: #86d6ba;">Imperial
-                Analysis</a> <br>              <a href="https://talks.cam.ac.uk/show/index/11715" style="color: #86d6ba;">Cambridge
-                PDE Seminar</a><br>              <a href="https://talks.cam.ac.uk/show/index/9811" style="color: #86d6ba;">Cambridge
-                ACA Seminar</a> <br>              <a href="https://www.brown.edu/academics/math/" style="color: #86d6ba;">Brown
-                Math<br>              </a><a href="https://mathematics.huji.ac.il/" style="color: #86d6ba;">HUJI
-                Math</a><br>              <p></p>              <h5 style="background-color: #466f61;"></h5>              <p> </p>            </div>            <div class="col-lg-4 order-3 order-lg-3" style="background-color: #16181a;">              <p> </p>              <h5 style="text-align: center;"><span style="color: #c7d4d0;">Other
+                        IMACS International Conference on Nonlinear Evolution
+                        Equations and Wave Phenomena: Computation and Theory</a>,
+                      University of Georgia, Athens, GA, USA, April 2011</li>
+                  </ul>
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="site-section bg-dark">
+      <div class="site-section" id="links-section">
+        <div class="container">
+          <div class="row ">
+            <div class="col-12 mb-5 position-relative">
+              <h2 class="section-title text-center mb-5"><span style="color: white;">Links</span></h2>
+            </div>
+            <div class="col-lg-4 order-1 order-lg-1" style="background-color: #2b2f33;">
+              <p> </p>
+              <h5 style="text-align: center;"><span style="color: #c7d4d0;">Cardiff
+                  University</span></h5>
+              <p><br>
+              </p>
+              <a href="http://www.cardiff.ac.uk/mathematics" style="color: #86d6ba;">School
+                of Mathematics</a> <br>
+              <a href="https://jbenartzi.github.io/seminars.html" style="color: #86d6ba;">Mathematics
+                Seminars Calendar</a><br>
+              <a href="http://www.cardiff.ac.uk/research/explore/research-units/mathematical-analysis"
+                style="color: #86d6ba;">Analysis
+                Research Group</a> <br>
+              <a href="https://jbenartzi.github.io/Cardiff.Informal/index.html"
+                style="color: #86d6ba;">Informal
+                Analysis &amp; PDE Seminar</a><br>
+              <a href="https://jbenartzi.github.io/SWAP/index.html" style="color: #86d6ba;">South
+                Wales Analysis and Probability Seminar</a><br>
+              <br>
+              <a href="http://www.cardiff.ac.uk/libraries" style="color: #86d6ba;">University
+                Library</a> <br>
+              <a href="http://sites.cardiff.ac.uk/events/" style="color: #86d6ba;">University
+                Events</a>
+              <p></p>
+              <h5 style="background-color: #466f61;"></h5>
+              <p> </p>
+            </div>
+            <div class="col-lg-4 order-2 order-lg-2" style="background-color: #232629;">
+              <p> </p>
+              <h5 style="text-align: center;"><span style="color: #c7d4d0;">Other
+                  Math Departments</span></h5>
+              <p><br>
+              </p>
+              <a href="https://www.imperial.ac.uk/pure-analysis-and-pdes" style="color: #86d6ba;">Imperial
+                Analysis</a> <br>
+              <a href="https://talks.cam.ac.uk/show/index/11715" style="color: #86d6ba;">Cambridge
+                PDE Seminar</a><br>
+              <a href="https://talks.cam.ac.uk/show/index/9811" style="color: #86d6ba;">Cambridge
+                ACA Seminar</a> <br>
+              <a href="https://www.brown.edu/academics/math/" style="color: #86d6ba;">Brown
+                Math<br>
+              </a><a href="https://mathematics.huji.ac.il/" style="color: #86d6ba;">HUJI
+                Math</a><br>
+              <p></p>
+              <h5 style="background-color: #466f61;"></h5>
+              <p> </p>
+            </div>
+            <div class="col-lg-4 order-3 order-lg-3" style="background-color: #16181a;">
+              <p> </p>
+              <h5 style="text-align: center;"><span style="color: #c7d4d0;">Other
 
-                  Links</span></h5>              <p><br>              </p>              <a href="https://cardiffquest.blog/" style="color: #86d6ba;">My                EPSRC project website</a><br>              <a href="https://mathscinet.ams.org/mathscinet/index.html" style="color: #86d6ba;">                MathSciNet</a> <br>              <a href="https://www.wolframalpha.com/" style="color: #86d6ba;">Wolfram
-                Alpha</a><br>              <a href="https://www.ams.org/open-math-notes" style="color: #86d6ba;">AMS
-                Open Math Notes</a> <br>              <a href="https://www.math.ucla.edu/%7Etao/" style="color: #86d6ba;">Terry
-                Tao</a> (many useful links)<br>              <p></p>              <h5 style="background-color: #466f61;"></h5>              <p> </p>            </div>          </div>        </div>      </div>    </section>    <div class="site-section" id="contact-section">      <div class="container">        <div class="row ">          <div class="col-12 mb-5 position-relative">            <h2 class="section-title text-center mb-1">Contact</h2>          </div>          <div class="col-lg-3 order-1 order-lg-1"><span style="color: black;">Dr
-              Jonathan Ben-Artzi<br>              School of Mathematics<br>              Cardiff University<br>              Senghennydd Road <br>              Cardiff CF24 4AG<br>              United Kingdom<br>              <br>            </span><span style="color: black;"><a href="https://www.cardiff.ac.uk/mathematics/about-us/our-location">Directions</a>              <br>              <br>            </span></div>          <div class="col-lg-4 order-2 order-lg-2"><a href="mailto:Ben-ArtziJ@cardiff.ac.uk"><img                src="images/email.png"                alt=""                style="width: 192px; height: 13px;"><br>            </a><span style="color: black;">+44 (0)29 2087 5624</span></div>          <div class="col-lg-5 order-3 order-lg-3"> <iframe src="https://www.google.com/maps/embed?pb=%211m14%211m12%211m3%211d398.10858374911874%212d-3.175757546992743%213d51.487429085824125%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%215e0%213m2%211sen%212suk%214v1591882462121%215m2%211sen%212suk"              style="border:0;"              allowfullscreen=""              aria-hidden="false"              tabindex="0"              height="300"              frameborder="0"              width="400"></iframe>&nbsp;
-            <br> <br>            <br>            <br>            <br>            <br>          </div>        </div>      </div>    </div>    <footer class="site-section bg-light footer">      <div class="container">        <div class="row">          <div class="col-12 text-center">            <p>              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->              Copyright ©              <script>document.write(new Date().getFullYear());</script> All              rights reserved | This template is made with by <a href="https://colorlib.com"                target="_blank">Colorlib</a>              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->            </p>          </div>        </div>      </div>    </footer>    <!-- .site-wrap -->    <script src="js/jquery-3.3.1.min.js"></script>    <script src="js/jquery-ui.js"></script>    <script src="js/popper.min.js"></script>    <script src="js/bootstrap.min.js"></script>    <script src="js/owl.carousel.min.js"></script>    <script src="js/jquery.easing.1.3.js"></script>    <script src="js/aos.js"></script>    <script src="js/jquery.fancybox.min.js"></script>    <script src="js/jquery.sticky.js"></script>    <script src="js/isotope.pkgd.min.js"></script>    <script src="js/main.js"></script>  </body></html>
+                  Links</span></h5>
+              <p><br>
+              </p>
+              <a href="https://cardiffquest.blog/" style="color: #86d6ba;">My
+                EPSRC project website</a><br>
+              <a href="https://mathscinet.ams.org/mathscinet/index.html" style="color: #86d6ba;">
+                MathSciNet</a> <br>
+              <a href="https://www.wolframalpha.com/" style="color: #86d6ba;">Wolfram
+                Alpha</a><br>
+              <a href="https://www.ams.org/open-math-notes" style="color: #86d6ba;">AMS
+                Open Math Notes</a> <br>
+              <a href="https://www.math.ucla.edu/%7Etao/" style="color: #86d6ba;">Terry
+                Tao</a> (many useful links)<br>
+              <p></p>
+              <h5 style="background-color: #466f61;"></h5>
+              <p> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="site-section" id="contact-section">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center mb-1">Contact</h2>
+          </div>
+          <div class="col-lg-3 order-1 order-lg-1"><span style="color: black;">Dr
+              Jonathan Ben-Artzi<br>
+              School of Mathematics<br>
+              Cardiff University<br>
+              Senghennydd Road <br>
+              Cardiff CF24 4AG<br>
+              United Kingdom<br>
+              <br>
+            </span><span style="color: black;"><a href="https://www.cardiff.ac.uk/mathematics/about-us/our-location">Directions</a>
+              <br>
+              <br>
+            </span></div>
+          <div class="col-lg-4 order-2 order-lg-2"><a href="mailto:Ben-ArtziJ@cardiff.ac.uk"><img
+                src="images/email.png"
+                alt=""
+                style="width: 192px; height: 13px;"><br>
+            </a><span style="color: black;">+44 (0)29 2087 5624</span></div>
+          <div class="col-lg-5 order-3 order-lg-3"> <iframe src="https://www.google.com/maps/embed?pb=%211m14%211m12%211m3%211d398.10858374911874%212d-3.175757546992743%213d51.487429085824125%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%215e0%213m2%211sen%212suk%214v1591882462121%215m2%211sen%212suk"
+              style="border:0;"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+              frameborder="0"
+              height="300"
+              width="400"></iframe>&nbsp;
+            <br> <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-section bg-light footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright ©
+              <script>document.write(new Date().getFullYear());</script> All
+              rights reserved | This template is made with by <a href="https://colorlib.com"
+                target="_blank">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- .site-wrap -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
