@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Exams</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default2.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #254360;
+	text-decoration: none;
+}
+.style2 {color: #000000}
+.style10 {color: #FF0000; font-weight: bold; }
+.style12 {color: #666666; font-weight: bold; }
+-->
+</style>
+</head>
+<body>
+<div id="header">
+	<h1>ma 18 section 1 fall 2010</h1>
+	<h2 align="right"><a href="http://www.math.brown.edu/~yonib" class="style1">jonathan ben-artzi home</a></h2>
+</div>
+<div id="menu">
+	<ul>
+		<li><a href="index.html">ma 18 home</a></li>
+		<li><a href="syllabus.html">syllabus</a></li>
+		<li><a href="guidelines.html">guidelines</a></li>
+		<li><a href="exams.html" class="active">exams</a></li>
+		<li><a href="timeline.html">timeline</a></li>
+    </ul>
+</div>
+<div id="content">
+	<div id="columnA">
+		<h2 class="style1">Exams</h2>
+	  <table width="100%" border="1" cellpadding="10">
+        <tr>
+          <th width="13%" scope="col">&nbsp;</th>
+          <th width="43%" scope="col"><div align="center"><span class="style2"><strong>Midterm</strong></span></div></th>
+          <th width="44%" scope="col"><div align="center"><span class="style2"><strong>Final</strong></span></div></th>
+        </tr>
+        <tr>
+          <td><span class="style2"><strong>Date</strong></span></td>
+          <td class="style12"><span class="style12">Thursday, October 14, 2010, 6-8 pm</span></td>
+          <td><span class="style10">Friday, December 10, 2010, 2-5 pm</span></td>
+        </tr>
+        <tr>
+          <td><span class="style2"><strong>Location</strong></span></td>
+          <td class="style12">MacMillan 117</td>
+          <td class="style10">Hunter Lab</td>
+        </tr>
+        <tr>
+          <td><span class="style2"><strong>Format</strong></span></td>
+          <td class="style12">5-10 Problems</td>
+          <td class="style10">Choice of 10/12 problems</td>
+        </tr>
+        <tr>
+          <td><span class="style2"><strong>Topics</strong></span></td>
+          <td class="style12">Everything up to (and including) 13.8, except for sections we skipped</td>
+          <td class="style10">All topics. Emphasis on second half of the course.</td>
+        </tr>
+        <tr>
+          <td><span class="style2"><strong>Practice</strong></span></td>
+          <td class="style12">Practice exam (<a href="files/MidtermPracticeExam.pdf">PDF</a>) (<a href="files/MidPracticeTestSolutions.pdf">Solutions</a>)</td>
+          <td class="style10">Practice exam (<a href="files/FinalPracticeExam.pdf">PDF</a>) (Solutions <a href="files/FinalPracticeExamSolutions.pdf">1</a> <a href="files/FinalPracticeTestSolutions-1-6.pdf">2</a>)</td>
+        </tr>
+        <tr>
+          <td><span class="style2"><strong>Solutions</strong></span></td>
+          <td class="style12"><a href="files/MidtermSolutions.pdf">Solutions</a></td>
+          <td class="style10"><a href="files/FinalExamSolutions.pdf">Solutions</a></td>
+        </tr>
+        <tr>
+          <td><span class="style2"><strong>Statistics</strong></span></td>
+          <td class="style12"><span class="style12">Average: 56/80 (70%), Median: 58/80 (72.5%), <a href="files/MidtermGradeHistogram.jpg">Histogram</a></span>          </td>
+          <td class="style10">***</td>
+        </tr>
+      </table>
+      <p>&nbsp;    </p>
+  </div>
+</div>
+<div id="footer">
+	<p>Last updated 
+	  <!-- #BeginDate format:Am1 -->December 16, 2010<!-- #EndDate -->
+	  • Designed by <a href="http://www.freecsstemplates.org" class="link1">Free CSS Templates</a></p>
+</div>
+</body>
+</html>
