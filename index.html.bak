@@ -202,8 +202,19 @@
                   Ben-Artzi, M. Marletta and F. Rösler</code><br>
                 <span style="color: black;">Computing scattering resonances</span>
                 <br>
-                <code style="color: #011993;"><strong>J. Eur. Math. Soc. (JEMS)</strong>
-                  (accepted), 31 pages&nbsp; <a href="papers/2022.JEMS.pdf"><img
+                <code style="color: #011993;"><strong>J. Eur. Math. Soc. (JEMS)</strong>,
+                  online first, (2022)</code><code style="color: #011993;"><code
+                    style="color: #011993;">&nbsp;
+                    <a href="https://ems.press/journals/jems/articles/7274199"><img
+                        src="images/journal.jpeg"
+                        alt="pdf"
+                        title="pdf"
+                        style="height: 20px;"></a>
+                    <a href="https://doi.org/10.4171/jems/1258"><img src="images/doi.jpg"
+                        alt="pdf"
+                        title="pdf"
+                        style="height: 20px;"></a>
+                  </code></code><code style="color: #011993;"><a href="papers/2022.JEMS.pdf"><img
                       src="images/pdf.png"
                       alt="pdf"
                       title="pdf"
@@ -617,7 +628,7 @@
               <table border="0" width="100%">
                 <tbody>
                   <tr>
-                    <td>Not teaching this semester</td>
+                    <td><a href="./2022.Autumn.PDE/index.html">MA3016: Partial Differential Equations</a></td>
                     <td valign="top"> <br>
                     </td>
                   </tr>
