@@ -16,11 +16,11 @@
     <div id="menu">
       <div class="centered">
         <div id="menu-line">
-          <div><a href="index.html" class="active">Home</a></div>
+          <div><a href="index.html">Home</a></div>
           <div><a href="syllabus.html">Syllabus</a></div>
           <div><a href="guidelines.html">Guidelines</a></div>
           <div><a href="timeline.html">Timeline</a></div>
-          <div><a href="feedback.html">Feedback</a></div>
+          <div><a href="feedback.html" class="active">Feedback</a></div>
         </div>
       </div>
     </div>
