@@ -294,7 +294,7 @@
             </tr>
             <tr>
               <td bgcolor="CornflowerBlue" valign="top">
-                <p class="style4">21</p>
+                <p class="style4">21&nbsp;<span style="color: black;"> <a href="notes/5.2.pdf">(notes)</a></span></p>
                 <div align="left">
                   <dl>
                     <dd><strong>5.2: Even, Odd, Periodic and Complex Functions</strong><strong>
