@@ -139,23 +139,23 @@ href="https://fonts.googleapis.com/css?family=Arbutus+Slab%7COpen+Sans:300,400,7
               <h2 class="section-title text-center mb-1">Publications
                 &amp; Preprints</h2>
             </div>
-            <div class="col-md-11 service h-12">
+               <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
-                  style="color: #9437ff;">J. Ben-Artzi, M. Marletta and
-                  F. Rösler</code><br>
-                <span style="color: black;">Universal algorithms for
-                  solving inverse spectral problems</span> <br>
-                <code style="color: #011993;"><u>Preprint</u>, 26
-                  pages&nbsp; <a href="papers/inverse_main.pdf"><img
+                  style="color: #a1a0a3;">J. Ben-Artzi and S. Pankavich</code><br>
+                <span style="color: black;">Modified scattering of solutions to the relativistic Vlasov-Maxwell system inside the light cone</span>
+                <br>
+                <code style="color: #011993;"> <u>Preprint</u>, 48
+                  pages&nbsp; <a
+href="papers/RVM-large-time.pdf"><img
                       src="images/pdf.png" alt="pdf" title="pdf"
                       style="height: 25px;"></a> <a
-                    href="https://arxiv.org/abs/2203.13078"><img
+                    href="http://arxiv.org/abs/2306.11725"><img
                       src="images/arxiv.png" alt="pdf" title="pdf"
                       style="height: 20px;"></a></code></p>
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
-                  style="color: #9437ff;">J. Ben-Artzi, F. Cacciafesta,
+                  style="color: #a1a0a3;">J. Ben-Artzi, F. Cacciafesta,
                   A.-S. de Suzzoni and J. Zhang</code><br>
                 <span style="color: black;">Strichartz estimates for the
                   Klein-Gordon equation in a conical singular space</span>
@@ -171,7 +171,7 @@ href="papers/Strichartz%20estimate%20for%20Klein-Gordon%20equation%20on%20metric
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
-                  style="color: #9437ff;">J. Ben-Artzi, M. Colbrook, A.
+                  style="color: #a1a0a3;">J. Ben-Artzi, M. Colbrook, A.
                   Hansen, O. Nevanlinna and M. Seidel</code><br>
                 <span style="color: black;">Computing Spectra - On the
                   Solvability Complexity Index Hierarchy and Towers of
@@ -186,7 +186,7 @@ href="papers/Strichartz%20estimate%20for%20Klein-Gordon%20equation%20on%20metric
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi, A.
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi, A.
                   Hansen, O. Nevanlinna and M. Seidel</code><br>
                 <span style="color: black;">The Solvability Complexity
                   Index - Computer Science and Logic Meet Scientific
@@ -198,27 +198,52 @@ href="papers/Strichartz%20estimate%20for%20Klein-Gordon%20equation%20on%20metric
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi and B.
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi and B.
                   Morisse</code><br>
-                <span style="color: black;">Averaging along degenerate
-                  flows on the annulus</span> <br>
-                <code style="color: #011993;"> <u>Preprint</u>, 15
-                  pages&nbsp; <a href="papers/annulus.pdf"><img
+                <span style="color: black;">A uniform ergodic theorem for degenerate flows on the annulus</span> <br>
+                <code style="color: #011993;"><strong>Communications on Pure and Applied Analysis</strong> 22, 2814-2827 (2023)&nbsp; <a
+                      href="https://www.aimsciences.org/article/doi/10.3934/cpaa.2023089"><img
+                        src="images/journal.jpeg" alt="pdf" title="pdf"
+                        style="height: 20px;"></a> <a
+                      href="https://doi.org/10.3934/cpaa.2023089"><img
+                        src="images/doi.jpg" alt="pdf" title="pdf"
+                        style="height: 20px;"></a>  <a href="papers/annulus.pdf"><img
                       src="images/pdf.png" alt="pdf" title="pdf"
                       style="height: 25px;"></a> <a
                     href="https://arxiv.org/abs/1902.06681"><img
                       src="images/arxiv.png" alt="pdf" title="pdf"
                       style="height: 20px;"></a></code></p>
             </div>
-            <div class="col-md-11 service h-12">
+               <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
-                  style="color: #9437ff;">J. Ben-Artzi, B. Morisse and
+                  style="color: #a1a0a3;">J. Ben-Artzi, M. Marletta and
+                  F. Rösler</code><br>
+                <span style="color: black;">On the complexity of the inverse Sturm-Liouville problem</span> <br>
+                <code style="color: #011993;"><strong>Pure and Applied Analysis</strong> (to appear), 27
+                  pages&nbsp; <a href="papers/2023.PAA.pdf"><img
+                      src="images/pdf.png" alt="pdf" title="pdf"
+                      style="height: 25px;"></a> <a
+                    href="https://arxiv.org/abs/2203.13078"><img
+                      src="images/arxiv.png" alt="pdf" title="pdf"
+                      style="height: 20px;"></a></code><code
+                  style="color: #011993;"> <a
+                    href="https://github.com/jbenartzi/inverse_SCI">Matlab code</a></code></p>
+            </div>
+      <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code
+                  style="color: #a1a0a3;">J. Ben-Artzi, B. Morisse and
                   S. Pankavich</code><br>
                 <span style="color: black;">Asymptotic Growth and Decay
                   of Two-Dimensional Symmetric Plasmas</span> <br>
-                <code style="color: #011993;"><strong>Kinetic &amp;
-                    Related Models</strong>, accepted, 26 pages&nbsp; <a
-                    href="papers/Vlasov-Poisson-2d.pdf"><img
+                <code style="color: #011993;"><strong>Kinetic and
+                    Related Models</strong>, online first, (2023)&nbsp; <a
+                      href="https://www.aimsciences.org/article/doi/10.3934/krm.2023015"><img
+                        src="images/journal.jpeg" alt="pdf" title="pdf"
+                        style="height: 20px;"></a> <a
+                      href="https://doi.org/10.3934/krm.2023015"><img
+                        src="images/doi.jpg" alt="pdf" title="pdf"
+                        style="height: 20px;"></a> <a
+                    href="papers/2023.KRM.pdf"><img
                       src="images/pdf.png" alt="pdf" title="pdf"
                       style="height: 25px;"></a> <a
                     href="https://arxiv.org/abs/2202.03717"><img
@@ -227,7 +252,7 @@ href="papers/Strichartz%20estimate%20for%20Klein-Gordon%20equation%20on%20metric
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
-                  style="color: #9437ff;">J. Ben-Artzi, M. Marletta and
+                  style="color: #a1a0a3;">J. Ben-Artzi, M. Marletta and
                   F. Rösler</code><br>
                 <span style="color: black;">Computing scattering
                   resonances</span> <br>
@@ -253,11 +278,13 @@ href="papers/Strichartz%20estimate%20for%20Klein-Gordon%20equation%20on%20metric
                       style="height: 25px;"></a> <a
                     href="https://arxiv.org/abs/2006.03368"><img
                       src="images/arxiv.png" alt="pdf" title="pdf"
-                      style="height: 20px;"></a></code></p>
+                      style="height: 20px;"></a></code><code
+                  style="color: #011993;"> <a
+                    href="https://github.com/jbenartzi/Resonances_SCI_1d">Matlab code</a></code></p>
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
-                  style="color: #9437ff;">J. Ben-Artzi, F. Cacciafesta,
+                  style="color: #a1a0a3;">J. Ben-Artzi, F. Cacciafesta,
                   A.-S. de Suzzoni and J. Zhang</code><br>
                 <span style="color: black;">Global Strichartz estimates
                   for the Dirac equation on symmetric spaces</span> <br>
@@ -287,11 +314,11 @@ href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
-                  style="color: #9437ff;">J. Ben-Artzi, S. Pankavich and
+                  style="color: #a1a0a3;">J. Ben-Artzi, S. Pankavich and
                   J. Zhang</code><br>
                 <span style="color: black;">A toy model for the
                   relativistic Vlasov-Maxwell system</span> <br>
-                <code style="color: #011993;"> <strong>Kinetic &amp;
+                <code style="color: #011993;"> <strong>Kinetic and
                     Related Models</strong> 15, 341-354
                   (2022)&nbsp;&nbsp;<a
                     href="https://www.aimsciences.org/article/doi/10.3934/krm.2021053"><img
@@ -308,7 +335,7 @@ href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
-                  style="color: #9437ff;">J. Ben-Artzi, M. Marletta and
+                  style="color: #a1a0a3;">J. Ben-Artzi, M. Marletta and
                   F. Rösler</code><br>
                 <span style="color: black;">Computing the sound of the
                   sea in a seashell</span> <br>
@@ -325,11 +352,13 @@ href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article
                       style="height: 25px; width: 19px;"></a> <a
                     href="https://arxiv.org/abs/2009.02956"><img
                       src="images/arxiv.png" alt="pdf" title="pdf"
-                      style="height: 20px;"></a></code></p>
+                      style="height: 20px;"></a></code><code
+                  style="color: #011993;"> <a
+                    href="https://github.com/jbenartzi/SeashellComp">Matlab code</a></code></p>
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
-                  style="color: #9437ff;">J. Ben-Artzi, M. Marletta and
+                  style="color: #a1a0a3;">J. Ben-Artzi, M. Marletta and
                   F. Rösler</code><br>
                 <span style="color: black;">Universal algorithms for
                   computing spectra of periodic operators</span> <br>
@@ -346,11 +375,13 @@ href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article
                       style="height: 25px;"></a> <a
                     href="https://arxiv.org/abs/2104.09575"><img
                       src="images/arxiv.png" alt="pdf" title="pdf"
-                      style="height: 20px;"></a></code></p>
+                      style="height: 20px;"></a></code><code
+                  style="color: #011993;"> <a
+                    href="https://github.com/jbenartzi/PeriodicSpectra">Matlab code</a></code></p>
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi and B.
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi and B.
                   Morisse</code><br>
                 <span style="color: black;">Uniform convergence in von
                   Neumann’s ergodic theorem in the absence of a spectral
@@ -373,7 +404,7 @@ href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-syste
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi and A.
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi and A.
                   Einav</code><br>
                 <span style="color: black;">Weak Poincaré inequalities
                   in the absence of spectral gaps</span> <br>
@@ -393,7 +424,7 @@ href="https://link.springer.com/article/10.1007/s00023-019-00858-4"><img
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi, S.
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi, S.
                   Calogero and S. Pankavich</code><br>
                 <span style="color: black;"> Concentrating solutions of
                   the relativistic Vlasov-Maxwell system</span> <br>
@@ -413,7 +444,7 @@ href="https://www.intlpress.com/site/pub/pages/journals/items/cms/content/vols/0
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi, S.
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi, S.
                   Calogero and S. Pankavich</code><br>
                 <span style="color: black;">Arbitrarily large solutions
                   of the Vlasov-Poisson system</span> <br>
@@ -434,7 +465,7 @@ href="https://www.intlpress.com/site/pub/pages/journals/items/cms/content/vols/0
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi, D.
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi, D.
                   Marahrens and S. Neukamm</code><br>
                 <span style="color: black;">Moment bounds on the
                   corrector of stochastic homogenization of
@@ -457,7 +488,7 @@ href="https://www.intlpress.com/site/pub/pages/journals/items/cms/content/vols/0
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi and T.
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi and T.
                   Holding</code><br>
                 <span style="color: black;">Instabilities of the
                   relativistic Vlasov-Maxwell system on unbounded
@@ -479,7 +510,7 @@ href="https://www.intlpress.com/site/pub/pages/journals/items/cms/content/vols/0
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi and T.
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi and T.
                   Holding</code><br>
                 <span style="color: black;">Approximations of strongly
                   continuous families of unbounded self-adjoint
@@ -502,7 +533,7 @@ href="https://www.intlpress.com/site/pub/pages/journals/items/cms/content/vols/0
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi, A.
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi, A.
                   Hansen, O. Nevanlinna and M. Seidel</code><br>
                 <span style="color: black;">New barriers in complexity
                   theory: On The Solvability Complexity Index and Towers
@@ -521,7 +552,7 @@ href="http://www.sciencedirect.com/science/article/pii/S1631073X15002137"><img
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi</code><br>
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi</code><br>
                 <span style="color: black;">Instabilities in kinetic
                   theory and their relationship to the ergodic theorem</span>
                 <br>
@@ -542,7 +573,7 @@ href="http://www.sciencedirect.com/science/article/pii/S1631073X15002137"><img
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi</code><br>
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi</code><br>
                 <span style="color: black;">On the spectrum of shear
                   flows and uniform ergodic theorems</span> <br>
                 <code style="color: #011993;"> <strong>J. Funct. Anal.</strong>
@@ -561,7 +592,7 @@ href="http://www.sciencedirect.com/science/article/pii/S0022123614001736"><img
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi</code><br>
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi</code><br>
                 <span style="color: black;">Instability of nonsymmetric
                   nonmonotone equilibria of the Vlasov-Maxwell system</span>
                 <br>
@@ -581,7 +612,7 @@ href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no"><
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
-                100%;"><code style="color: #9437ff;">J. Ben-Artzi</code><br>
+                100%;"><code style="color: #a1a0a3;">J. Ben-Artzi</code><br>
                 <span style="color: black;">Instability of nonmonotone
                   magnetic equilibria of the relativistic Vlasov-Maxwell
                   system</span> <br>
@@ -613,13 +644,13 @@ href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no"><
             <div class="col-lg-7 order-1 order-lg-1">
               <h5 style="background-color: #397261;"><span style="color:
                   white;">&nbsp;Current Teaching</span></h5>
-              <p><br>
-              </p>
+             <p>
+            </p>
               <table width="100%" border="0">
                 <tbody>
                   <tr>
-                    <td>Not teaching this semester</td>
-                    <td valign="top"> <br>
+                    <td>In the Autumn of 2023 I will be teaching the upper undergraduate course <strong>MA3016 Partial Differential Equations</strong> and the doctoral course <strong>MAGIC058 Theory of Partial Differential Equations</strong>. Their respective webpages will appear in due course.</td>
+                    <td valign="top"> 
                     </td>
                   </tr>
                 </tbody>
@@ -636,7 +667,7 @@ href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no"><
               <table width="100%" border="0">
                 <tbody>
                   <tr>
-                    <td><a href="./2022.Autumn.PDE/index.html">MA3016:
+                    <td><a href="./Teaching/2022.Autumn.PDE/index.html">MA3016:
                         Partial Differential Equations</a></td>
                     <td>
                       <div align="right">Autumn 2022</div>
@@ -659,7 +690,7 @@ href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no"><
                 <tbody>
                   <tr>
                     <td><a
-                        href="https://jbenartzi.github.io/2015.Dispersive/index.html">Dispersive
+                        href="./Teaching/2015.Dispersive/index.html">Dispersive
 
 
 
@@ -720,7 +751,7 @@ href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no"><
                 <tbody>
                   <tr>
                     <td><a
-                        href="https://jbenartzi.github.io/2010.Fall.MA18/index.html">MA0180</a>:
+                        href="./Teaching/2010.Fall.MA18/index.html">MA0180</a>:
                       Intermediate Calculus</td>
                     <td>
                       <div align="right">Autumn 2010</div>
@@ -728,7 +759,7 @@ href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no"><
                   </tr>
                   <tr>
                     <td><a
-                        href="https://jbenartzi.github.io/2009.Fall.MA18/index.html">MA0180</a>:
+                        href="./Teaching/2009.Fall.MA18/index.html">MA0180</a>:
                       Intermediate Calculus</td>
                     <td>
                       <div align="right">Autumn 2009</div>
@@ -736,7 +767,7 @@ href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no"><
                   </tr>
                   <tr>
                     <td><a
-                        href="https://jbenartzi.github.io/2009.Spring.MA6/index.html">MA0060</a>:
+                        href="./Teaching/2009.Spring.MA6/index.html">MA0060</a>:
                       Analytic Geometry &amp; Calculus</td>
                     <td>
                       <div align="right">Spring 2009</div>
@@ -744,7 +775,7 @@ href="http://jmp.aip.org/resource/1/jmapaq/v52/i12/p123703_s1?isAuthorized=no"><
                   </tr>
                   <tr>
                     <td><a
-                        href="https://jbenartzi.github.io/2008.Fall.MA35/index.html">MA0350</a>:
+                        href="./Teaching/2008.Fall.MA35/index.html">MA0350</a>:
                       Honors Calculus</td>
                     <td>
                       <div align="right">Autumn 2008</div>
@@ -1274,19 +1305,24 @@ href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/N020154/1">EP/N0
                 </div>
                 <p><br>
                 </p>
-                Some of the institutions where I have given talks:<br>
-                <br>
-                <div style="text-align: justify;">Brown University,
-                  Cardiff University, Columbia University, Hebrew
-                  University of Jerusalem, Imperial College London, Max
-                  Planck Institute Leipzig, McGill University, Princeton
-                  University, Technion-Israel Institute of Technology,
-                  Université Aix-Marseille, University College London,
-                  University of Bath, University of Cambridge,
-                  University of Crete, University of Glasgow, University
-                  of Oxford, University of Paris 13, University of
-                  Reading, University of Surrey, University of Sussex,
-                  University of Warwick </div>
+                <div style="text-align: justify;">
+                2024: Université Côte d'Azur (scheduled), Université Grenoble Alpes (scheduled), Université de Rennes
+(scheduled)<br>     
+                          2023: Université  de Tours, Université  d'Orléans (scheduled)<br>
+                2022: University of Bremen, University of Oxford<br>
+                                2019: Université de Rennes, Swansea University, University of Warwick<br>
+      2018: Hebrew University of Jerusalem<br>
+                                           2017: McGill University, Princeton University<br>
+                       2016: University of Crete, University of Leicester, University of Surrey, University of Sussex<br>
+                                              2015: University of Bath, Cardiff University, University of Glasgow, Hebrew University of Jerusalem, University College London, Université Aix-Marseille, University of Oxford, University of Reading, University of
+Warwick<br>
+                                                                     2014: Imperial College London<br>
+                                                                                            2013: University of Durham<br>
+                                                                   2012: Université Paris Nord (13), University of Warwick<br>                                                                                2011: University of Cambridge, Max Planck Institute Leipzig, University of Oxford, Technion–Israel Institute
+of Technology, Imperial College London<br>          2010: Columbia University, Brown University<br>
+                                                                                            
+                                                                                         
+     </div>
               </div>
             </div>
             <div class="col-md-12 mb-4">
@@ -1302,8 +1338,22 @@ href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/N020154/1">EP/N0
                 <p><br>
                 </p>
                 <div style="text-align: justify;">
-                  <ul>
-                    <li><a href="https://www.maths.ox.ac.uk/node/60407">PDE
+                  <ul><li><a href="https://conferences.cirm-math.fr/2988.html">
+PDE & Probability in interaction: functional inequalities, optimal transport and particle systems</a>,
+                      CIRM, Luminy, France, January 2024</li><li><a href="https://asp2023.sciencesconf.org/">
+Spectral and Resonance Problems for Imaging, Seismology and Materials Science</a>,
+                      Reims, France, November 2023</li>
+                    <li><a
+                        href="https://www.helsinki.fi/en/conferences/iwota2023">International
+
+
+
+
+
+
+
+                        Workshop on Operator Theory and its Applications</a>,
+                      Helsinki, Finland, August 2023</li>   <li><a href="https://www.maths.ox.ac.uk/node/60407">PDE
 
 
 
@@ -1324,7 +1374,8 @@ href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/N020154/1">EP/N0
 
                         Workshop: Mathematical aspects of the physics
                         with non-self-adjoint operators</a>, Banff,
-                      Canada, July 2022</li>
+                      Canada, July 2022 (<a href="http://www.birs.ca/events/2022/5-day-workshops/22w5115/videos/watch/202207131031-Ben-Artzi.html">video</a>
+                      of my talk)</li>
                     <li><a
                         href="https://www.lancaster.ac.uk/maths/iwotauk2021/">International
 
@@ -1548,6 +1599,8 @@ href="http://www.cardiff.ac.uk/research/explore/research-units/mathematical-anal
                   #c7d4d0;">Other Links</span></h5>
               <p><br>
               </p>
+              <a href="https://github.com/jbenartzi"
+                style="color: #86d6ba;">Matlab codes related to some of my papers</a><br>
               <a href="https://cardiffquest.wordpress.com/"
                 style="color: #86d6ba;">My (now concluded) EPSRC project
                 website </a><br>
