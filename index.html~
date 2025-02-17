@@ -170,6 +170,17 @@ href="https://fonts.googleapis.com/css?family=Arbutus+Slab%7COpen+Sans:300,400,7
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
+                  style="color: #a1a0a3;">J. Ben-Artzi, G. Mattingly and S. Pankavich</code><br>
+                <span style="color: black;">Arbitrary Polynomial Decay Rates of Neutral, Collisionless Plasmas</span> <br>
+                <code style="color: #011993;"> <u>Preprint</u>, 35
+                  pages&nbsp; <a href="papers/VP_neutral_decay_rates.pdf"><img
+                      src="images/pdf.png" alt="pdf" title="pdf"
+                      style="height: 25px;"></a> <a
+                    href="http://arxiv.org/abs/2502.02678"><img
+                      src="images/arxiv.png" alt="pdf" title="pdf"
+                      style="height: 20px;"></a></code></p>
+            </div>           <div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code
                   style="color: #a1a0a3;">J. Ben-Artzi and S. Pankavich</code><br>
                 <span style="color: black;">Modified scattering of
                   solutions to the relativistic Vlasov-Maxwell system
@@ -224,6 +235,25 @@ href="papers/Strichartz%20estimate%20for%20Klein-Gordon%20equation%20on%20metric
                   pages&nbsp; <a href="papers/SCI_STOC_Final.pdf"><img
                       src="images/pdf.png" alt="pdf" title="pdf"
                       style="height: 25px;"></a></code></p>
+            </div><div class="col-md-11 service h-12">
+              <p style="margin-top: -26px; margin-bottom: -20px;"><code
+                  style="color: #a1a0a3;">J. Ben-Artzi, B. Morisse and
+                  S. Pankavich</code><br>
+                <span style="color: black;">Asymptotic Growth and Decay
+                  of Two-Dimensional Symmetric Plasmas</span> <br>
+                <code style="color: #011993;"><strong>Kinetic and
+                    Related Models</strong> 17, 29-51 (2024)&nbsp; <a
+                    href="https://www.aimsciences.org/article/doi/10.3934/krm.2023015"><img
+                      src="images/journal.jpeg" alt="pdf" title="pdf"
+                      style="height: 20px;"></a> <a
+                    href="https://doi.org/10.3934/krm.2023015"><img
+                      src="images/doi.jpg" alt="pdf" title="pdf"
+                      style="height: 20px;"></a> <a
+                    href="papers/2023.KRM.pdf"><img src="images/pdf.png"
+                      alt="pdf" title="pdf" style="height: 25px;"></a> <a
+                    href="https://arxiv.org/abs/2202.03717"><img
+                      src="images/arxiv.png" alt="pdf" title="pdf"
+                      style="height: 20px;"></a></code></p>
             </div>
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px; width:
@@ -283,26 +313,7 @@ href="papers/Strichartz%20estimate%20for%20Klein-Gordon%20equation%20on%20metric
 
                     code</a></code></p>
             </div>
-            <div class="col-md-11 service h-12">
-              <p style="margin-top: -26px; margin-bottom: -20px;"><code
-                  style="color: #a1a0a3;">J. Ben-Artzi, B. Morisse and
-                  S. Pankavich</code><br>
-                <span style="color: black;">Asymptotic Growth and Decay
-                  of Two-Dimensional Symmetric Plasmas</span> <br>
-                <code style="color: #011993;"><strong>Kinetic and
-                    Related Models</strong> 17, 29-51 (2024)&nbsp; <a
-                    href="https://www.aimsciences.org/article/doi/10.3934/krm.2023015"><img
-                      src="images/journal.jpeg" alt="pdf" title="pdf"
-                      style="height: 20px;"></a> <a
-                    href="https://doi.org/10.3934/krm.2023015"><img
-                      src="images/doi.jpg" alt="pdf" title="pdf"
-                      style="height: 20px;"></a> <a
-                    href="papers/2023.KRM.pdf"><img src="images/pdf.png"
-                      alt="pdf" title="pdf" style="height: 25px;"></a> <a
-                    href="https://arxiv.org/abs/2202.03717"><img
-                      src="images/arxiv.png" alt="pdf" title="pdf"
-                      style="height: 20px;"></a></code></p>
-            </div>
+            
             <div class="col-md-11 service h-12">
               <p style="margin-top: -26px; margin-bottom: -20px;"><code
                   style="color: #a1a0a3;">J. Ben-Artzi, M. Marletta and
@@ -1193,24 +1204,7 @@ of
                   </div>
                 </div>
               </div>    
-                <div class="col-md-6 mb-4">
-                <div class="service d-flex h-100"
-                  style="background-color: #2b2f33;">
-                  <div style="width: 200px;"><strong><span style="color:
-                        #86d6ba;">Jul<br>
-                        2022<br>
-                      </span></strong></div>
-                  <div class="service-about">
-                    <h3><span style="color: #86d6ba;">Student Award Shortlist</span></h3>
-                    <p style="text-align: justify;"><span style="color:
-                        #d6d6d6;">Congratulations to <a
-                          href="https://alexeistepa.github.io/">Alexei
-                          Stepanenko</a> for successfully defending his
-                        thesis and moving to Cambridge for an LMS
-                        Postdoctoral Fellowship!</span></p>
-                  </div>
-                </div>
-              </div>
+                
       <div class="col-md-6 mb-4">
                 <div class="service d-flex h-100"
                   style="background-color: #2b2f33;">
@@ -1650,7 +1644,11 @@ href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/N020154/1">EP/N0
                 </p>
                 <div style="text-align: justify;">
                   <ul>
-                    <li>Analysis of PDEs in Mathematical Physics, Bath,
+                    <li><a
+                        href="https://sites.google.com/view/siemmpw2/home">
+                        Second Workshop on
+Singular Interactions and Effective Models in Mathematical Physics</a>, University of Insubria, Como, Italy (2025)</li>
+                        <li>Analysis of PDEs in Mathematical Physics, Bath,
                       UK, June 2024</li>
                     <li><a
                         href="https://conferences.cirm-math.fr/2988.html">
