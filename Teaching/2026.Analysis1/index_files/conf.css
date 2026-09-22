@@ -191,6 +191,16 @@ a:visited {
 	padding:40px 0px;
 }
 
+#sea table dl,
+#sea table dd {
+	margin: 0;
+	padding: 0 0 0 1mm;
+}
+
+#sea table td.noclass dd {
+	padding-left: 6mm;
+}
+
 #bottom {
 	background-color: #1f567d;
 	padding-bottom:60px;
