@@ -67,7 +67,7 @@ a:visited {
   background: gold;
 }
 
-.img-span img, span {
+.img-span img, .img-span span {
   display: inline-block;
   vertical-align: middle;
 }
